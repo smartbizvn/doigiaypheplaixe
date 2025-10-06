@@ -37,6 +37,14 @@ return [
                 'label' => 'Địa chỉ',
                 'rules' => 'required',
                 'placeholder' => 'Địa chỉ'
+            ],
+            [
+                'type' => 'text',
+                'data' => 'string', 
+                'name' => 'fanpage',
+                'label' => 'Fanpage',
+                'rules' => 'required',
+                'placeholder' => 'Fanpage'
             ]
         ]
     ],

@@ -7,15 +7,15 @@
                         <ul class="topbar-contact">
                             <li>
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                78 Tân Sơn Nhì, Tân Sơn Nhì, TP.HCM
+                                {{ getSetting('address') }}
                             </li>
                             <li>
                                 <i class="fa fa-phone" aria-hidden="true"></i>
-                                <a href="tel:0973 011 550">0973 011 550</a>
+                                <a href="tel:{{ getSetting('phone') }}">{{ getSetting('phone') }}</a>
                             </li>
                             <li>
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                <a href="mailto:support@rstheme.com">doigiaypheplaixe@gmail.com</a>
+                                <a href="mailto:{{ getSetting('email') }}">{{ getSetting('email') }}</a>
                             </li>
                         </ul>
                     </div>
@@ -30,7 +30,7 @@
                         <div class="logo-cat-wrap">
                             <div class="logo-part">
                                 <a href="i">
-                                    <img src="{{ asset('frontend')}}/images/logo.png" alt="">
+                                    <img src="{{ asset('frontend')}}/images/logo.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM">
                                 </a>
                             </div>
                         </div>
@@ -81,7 +81,6 @@
         </div>
         <!-- Menu End --> 
 
-        <!-- Canvas Menu start -->
         <nav class="right_menu_togle hidden-md">
             <div class="close-btn">
                 <div id="nav-close">
@@ -91,7 +90,7 @@
                 </div>
             </div>
             <div class="canvas-logo">
-                <a href="index.html"><img src="{{ asset('frontend')}}/assets/images/dark-logo.png" alt="logo"></a>
+                <a href="{{ url('/') }}"><img src="{{ asset('frontend')}}/assets/images/dark-logo.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
             </div>
             <div class="offcanvas-text">
                 <p>We denounce with righteous indige nationality and dislike men who are so beguiled and demo  by the charms of pleasure of the moment data com so blinded by desire.</p>
@@ -128,6 +127,5 @@
                 </ul>
             </div>
         </nav>
-        <!-- Canvas Menu end -->
     </header>
 </div>

@@ -7,24 +7,24 @@
                     <ul class="address-widget">
                         <li>
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <div class="desc">78 Tân Sơn Nhì, TP.HCM</div>
+                            <div class="desc">{{ getSetting('address') }}</div>
                         </li>
                         <li>
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <div class="desc">
-                                <a href="tel:0973 011 550">0973 011 550</a>
+                                <a href="tel:{{ getSetting('phone') }}">{{ getSetting('phone') }}</a>
                             </div>
                         </li>
                         <li>
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             <div class="desc">
-                                <a href="mailto:doigiaypheplaixe@gmail.com">doigiaypheplaixe@gmail.com</a>
+                                <a href="mailto:{{ getSetting('email') }}">{{ getSetting('email') }}</a>
                             </div>
                         </li>
                         <li>
                             <i class="fa fa-facebook-official" aria-hidden="true"></i>
                             <div class="desc">
-                                <a href="mailto:doigiaypheplaixe@gmail.com">Đổi giấy phép lái xe TP.HCM</a>
+                                <a href="{{ getSetting('fanpage') }}">Đổi giấy phép lái xe TP.HCM</a>
                             </div>
                         </li>
                     </ul>
@@ -87,7 +87,7 @@
             <div class="row y-middle">
                 <div class="col-lg-4 md-mb-20">
                     <div class="footer-logo md-text-center">
-                        <a href=""><img src="{{ asset('frontend')}}/images/logo.png" alt=""></a>
+                        <a href="{{ url('/') }}"><img src="{{ asset('frontend')}}/images/logo.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 md-mb-20">
