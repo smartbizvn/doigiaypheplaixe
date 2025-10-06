@@ -6,16 +6,16 @@
                     <div class="col-md-12">
                         <ul class="topbar-contact">
                             <li>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                {{ getSetting('address') }}
-                            </li>
-                            <li>
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                 <a href="tel:{{ getSetting('phone') }}">{{ getSetting('phone') }}</a>
                             </li>
                             <li>
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                                 <a href="mailto:{{ getSetting('email') }}">{{ getSetting('email') }}</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                {{ getSetting('address') }}
                             </li>
                         </ul>
                     </div>

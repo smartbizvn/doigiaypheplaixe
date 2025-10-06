@@ -5,10 +5,7 @@
                 <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
                     <h3 class="widget-title">THÔNG TIN LIÊN HỆ</h3>
                     <ul class="address-widget">
-                        <li>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <div class="desc">{{ getSetting('address') }}</div>
-                        </li>
+                        
                         <li>
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <div class="desc">
@@ -20,6 +17,10 @@
                             <div class="desc">
                                 <a href="mailto:{{ getSetting('email') }}">{{ getSetting('email') }}</a>
                             </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <div class="desc">{{ getSetting('address') }}</div>
                         </li>
                         <li>
                             <i class="fa fa-facebook-official" aria-hidden="true"></i>
