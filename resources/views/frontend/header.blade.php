@@ -1,0 +1,133 @@
+<div class="full-width-header home8-style4">
+    <header id="rs-header" class="rs-header">
+        <div class="topbar-area home8-topbar">
+            <div class="container">
+                <div class="row y-middle">
+                    <div class="col-md-12">
+                        <ul class="topbar-contact">
+                            <li>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                78 Tân Sơn Nhì, Tân Sơn Nhì, TP.HCM
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <a href="tel:0973 011 550">0973 011 550</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="mailto:support@rstheme.com">doigiaypheplaixe@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-area menu-sticky">
+            <div class="container">
+                <div class="row y-middle">
+                    <div class="col-lg-3">
+                        <div class="logo-cat-wrap">
+                            <div class="logo-part">
+                                <a href="i">
+                                    <img src="{{ asset('frontend')}}/images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 text-right">
+                        <div class="rs-menu-area">
+                            <div class="main-menu">
+                                <div class="mobile-menu">
+                                    <a class="rs-menu-toggle">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                </div>
+                                <nav class="rs-menu">
+                                    <ul class="nav-menu">
+                                        <li class="menu-item">
+                                            <a href="#">Trang chủ</a>
+                                        </li>   
+                                        <li class="menu-item">
+                                            <a href="#">Giới thiệu</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">Dịch vụ <i class="fa fa-angle-down mr-0" aria-hidden="true"></i></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="">Đổi giấy phép lái xe hạng A1</a></li>
+                                                <li><a href="">Đổi giấy phép lái xe hạng A1</a></li>
+                                                <li><a href="">Đổi giấy phép lái xe hạng B</a></li>
+                                                <li><a href="">Đổi giấy phép lái xe hạng C</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">Chia sẻ kiến thức</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </nav>                                         
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-right">
+                        <div class="expand-btn-inner">
+                            <a class="apply-btn" href="#">ĐĂNG KÝ TƯ VẤN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End --> 
+
+        <!-- Canvas Menu start -->
+        <nav class="right_menu_togle hidden-md">
+            <div class="close-btn">
+                <div id="nav-close">
+                    <div class="line">
+                        <span class="line1"></span><span class="line2"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas-logo">
+                <a href="index.html"><img src="{{ asset('frontend')}}/assets/images/dark-logo.png" alt="logo"></a>
+            </div>
+            <div class="offcanvas-text">
+                <p>We denounce with righteous indige nationality and dislike men who are so beguiled and demo  by the charms of pleasure of the moment data com so blinded by desire.</p>
+            </div>
+            <div class="offcanvas-gallery">
+                <div class="gallery-img">
+                    <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/1.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/1.jpg" alt=""></a>
+                </div>
+                <div class="gallery-img">
+                    <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/2.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/2.jpg" alt=""></a>
+                </div>
+                <div class="gallery-img">
+                    <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/3.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/3.jpg" alt=""></a>
+                </div>
+                <div class="gallery-img">
+                    <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/4.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/4.jpg" alt=""></a>
+                </div>
+                <div class="gallery-img">
+                    <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/5.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/5.jpg" alt=""></a>
+                </div>
+                <div class="gallery-img">
+                    <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/6.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/6.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="map-img">
+                <img src="{{ asset('frontend')}}/assets/images/map.jpg" alt="">
+            </div>
+            <div class="canvas-contact">
+                <ul class="social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Canvas Menu end -->
+    </header>
+</div>

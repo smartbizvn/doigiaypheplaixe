@@ -1,0 +1,9 @@
+<?php
+namespace App\Repositories\{{Module}};
+
+use App\Repositories\RepositoryInterface;
+
+interface {{Module}}RepositoryInterface extends RepositoryInterface
+{
+    public function list($request);
+}
