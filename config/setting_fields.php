@@ -17,30 +17,6 @@ return [
             [
                 'type' => 'text',
                 'data' => 'string', 
-                'name' => 'co_quan_chu_quan',
-                'label' => 'Cơ quan chủ quản',
-                'rules' => 'required',
-                'placeholder' => 'Cơ quan chủ quản'
-            ],
-            [
-                'type' => 'text',
-                'data' => 'string', 
-                'name' => 'nguoi_phat_ngon',
-                'label' => 'Người phát ngôn',
-                'rules' => 'required',
-                'placeholder' => 'Người phát ngôn'
-            ],
-            [
-                'type' => 'text',
-                'data' => 'string', 
-                'name' => 'truong_ban_bien_tap',
-                'label' => 'Trưởng ban biên tập',
-                'rules' => 'required',
-                'placeholder' => 'Trưởng ban biên tập'
-            ],
-            [
-                'type' => 'text',
-                'data' => 'string', 
                 'name' => 'phone',
                 'label' => 'Điện thoại',
                 'rules' => 'required',

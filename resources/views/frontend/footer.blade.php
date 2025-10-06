@@ -2,14 +2,6 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                {{-- <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                    <div class="footer-logo mb-20">
-                        <a href="index.html"><img src="{{ asset('frontend')}}/images/logo.png"></a>
-                    </div>
-                    <div class="textwidget pr-60 md-pr-15">
-                        <p>We denounce with righteous indi gnation and dislike men who are so beguiled and demoralized by the charms of pleasure of your moment</p>
-                    </div>
-                </div> --}}
                 <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
                     <h3 class="widget-title">THÔNG TIN LIÊN HỆ</h3>
                     <ul class="address-widget">
@@ -100,7 +92,7 @@
                 </div>
                 <div class="col-lg-4 md-mb-20">
                     <div class="copyright text-center md-text-left">
-                        <p>2025 &copy; Vận hành & phát triển bởi <a style="color: #21a7d0" href="https://smartbiz.com.vn"> SmartBiz.com.vn</a></p>
+                        <p>2025 &copy; Phát triển bởi <a style="color: #21a7d0" href="https://smartbiz.com.vn"> SmartBiz.com.vn</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-right md-text-left">
