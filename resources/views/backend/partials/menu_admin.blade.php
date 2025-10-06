@@ -5,7 +5,7 @@
                 <img src="{{asset('backend/images/logo-sm.png')}}" height="30">
             </span>
             <span class="logo-lg">
-                <img class='mt-2' src="{{asset('backend/images/logo-dark.png')}}" height="50">
+                <img class='mt-2' src="{{asset('backend/images/logo-dark.png')}}" height="40">
             </span>
         </a>
         <a target="_blank" href="#" class="logo logo-light">
@@ -13,7 +13,7 @@
                 <img src="{{asset('backend/images/logo-sm.png')}}" height="30">
             </span>
             <span class="logo-lg">
-                <img class='mt-2' src="{{asset('backend/images/logo-light.png')}}" height="50">
+                <img class='mt-2' src="{{asset('backend/images/logo-light.png')}}" height="40">
             </span>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
