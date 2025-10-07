@@ -1255,11 +1255,11 @@ ul.listing-style.modify li:before {
   width: auto;
 }
 .sec-title .sub-title {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 .sec-title .sub-title.primary {
   color: #21a7d0;

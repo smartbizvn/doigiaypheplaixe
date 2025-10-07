@@ -38,23 +38,13 @@
         </div>
     </div>
 
-    <div id="rs-about" class="rs-about style6 pt-120 pb-100 md-pt-70 md-pb-70">
+    <div id="rs-about" class="rs-about style6 pt-120 pb-70 md-pt-70 md-pb-70">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4">
+                <div class="col-lg-12 text-center">
                     <div class="sec-title mb-26">
-                        <div class="sub-title">DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE</div>
+                        <h1 class="sub-title extra-bold">DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM</h1>
                         <h2 class="title extra-bold">UY TÍN - NHANH CHÓNG - TIẾT KIỆM</h2>
-                    </div>
-                </div>
-                <div class="col-lg-4 pr-10 md-mb-40">
-                    <div class="desc">
-                        Uy tín không phải là điều tự nhiên có được, mà được xây dựng qua thời gian, bằng sự cam kết, minh bạch và nhất quán trong từng dịch vụ mà chúng tôi cung cấp. Với nhiều năm hoạt động trong ngành, chúng tôi tự hào là đơn vị được đông đảo khách hàng lựa chọn và tin tưởng.
-                    </div>
-                </div>  
-                <div class="col-lg-4 pr-10 md-mb-10">
-                    <div class="desc">
-                        Đội ngũ nhân sự của chúng tôi là những người có trình độ chuyên môn cao, dày dặn kinh nghiệm và đặc biệt là luôn chủ động đổi mới. Từng cá nhân đều hiểu rõ vai trò của mình trong hệ thống, và cùng hướng đến một mục tiêu chung: mang lại giá trị thật cho khách hàng.
                     </div>
                 </div>
             </div>
@@ -221,7 +211,7 @@
         </div>
         <div class="cta-content text-center">
             <div class="sec-title mb-40 md-mb-20 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                <h2 class="title mb-16 md-mb-10">✨ Chương trình ưu đãi năm 2025 ✨</h2>
+                <h2 class="title mb-16 md-mb-10">Chương trình ưu đãi năm 2025</h2>
                 <div class="desc fs_20">👉 Dành cho <b class='text-danger fs_30'>250</b> khách hàng đầu tiên! Bạn sẽ được ✂ giảm ngay <b class='text-danger fs_30'>20%</b> phí dịch vụ cho tất cả các loại dịch vụ đổi giấy phép lái xe các hạng A1, A, B, C. <br><p class='mt-2'><b class='text-danger fs_30'>☎ Liên hệ : 0973 011 550 </b></p></div>
             </div>
             <div class="btn-part wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">

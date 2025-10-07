@@ -6,22 +6,16 @@ use Illuminate\Http\Request;
 
 use App\Repositories\ArticleCategory\ArticleCategoryRepositoryInterface;
 use App\Repositories\Article\ArticleRepositoryInterface;
-use App\Repositories\Document\DocumentRepositoryInterface;
-use App\Repositories\InfoDocument\InfoDocumentRepositoryInterface;
 use App\Models\InfoDocument;
 
 class HomeController extends BaseController
 {
     public function __construct(
         ArticleRepositoryInterface $articleRepository, 
-        ArticleCategoryRepositoryInterface $articleCategoryRepository,
-        DocumentRepositoryInterface $documentRepository,
-        InfoDocumentRepositoryInterface $infoDocumentRepository
+        ArticleCategoryRepositoryInterface $articleCategoryRepository
     ){
         $this->articleRepository = $articleRepository;
         $this->articleCategoryRepository = $articleCategoryRepository;
-        $this->documentRepository = $documentRepository;
-        $this->infoDocumentRepository = $infoDocumentRepository;
     }
 
     public function index(Request $request){
