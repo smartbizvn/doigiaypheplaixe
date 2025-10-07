@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 use App\Repositories\ArticleCategory\ArticleCategoryRepositoryInterface;
 use App\Repositories\Article\ArticleRepositoryInterface;
-use App\Models\InfoDocument;
 
 class HomeController extends BaseController
 {
@@ -27,14 +26,11 @@ class HomeController extends BaseController
     }
 
     public function articles(Request $req){
-        $categoryArticle  = $this->articleCategoryRepository->articleCategory($req->slug);
-        $categoryWithChildrenIds = $this->articleCategoryRepository->getCategoryWithChildrenIds($categoryArticle);
         $articles  = $this->articleRepository->getArticleByCategoriesId($categoryWithChildrenIds, 14, true);
         $data  = array(
-            'category_article' => $categoryArticle,
             'articles' => $articles,
-            'title' => getTitle($categoryArticle),
-            'meta_description' => getDesc($categoryArticle)
+            'title' => getSetting('title'),
+            'meta_description' => getSetting('meta_description')
         );
         return view('frontend.list_new', $data);
     }

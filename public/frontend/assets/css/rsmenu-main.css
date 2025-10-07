@@ -475,7 +475,7 @@ Version: 1.0.0
 	
 	/* Sub-menus - width */
 	.rs-menu ul ul a {
-		width: 260px;	/* <- Modify for width change */
+		width: 320px;	/* <- Modify for width change */
 	}
 	
     .nav-menu .mega-menu li div.mega-menu-innner .single-magemenu {

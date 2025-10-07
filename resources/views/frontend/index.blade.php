@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="counter-item text-center">
-                        <h2 class="rs-count percent">98.5</h2>
+                        <h2 class="rs-count percent">98</h2>
                         <h4 class="title mb-0">Hồ sơ được giải quyết giải quyết thành công</h4>
                     </div>
                 </div>
@@ -255,7 +255,7 @@
     
     <div class="rs-cta">
         <div class="cta-img">
-            <img src="{{ asset('frontend')}}/assets/images/cta/cta-bg.jpg" alt="">
+            <img src="{{ asset('frontend')}}/images/promotion_1.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM">
         </div>
         <div class="cta-content text-center">
             <div class="sec-title mb-40 md-mb-20 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">

@@ -5,7 +5,7 @@
     Route::controller(HomeController::class)->group(function () {
         Route::get('/', 'index')->name('index');
         Route::get('tim-kiem', 'search')->name('search');
-        Route::get('bai-viet/{slug}', 'article')->name('article');
-        Route::get('chuyen-muc/{slug}', 'articles')->name('articles');
+        Route::get('chia-se-kien-thuc/{slug}', 'article')->name('article');
+        Route::get('chia-se-kien-thuc', 'articles')->name('articles');
     });
 ?>

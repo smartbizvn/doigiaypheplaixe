@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-
+        @inject('service', 'App\Services\Service')
         <div class="menu-area menu-sticky">
             <div class="container">
                 <div class="row y-middle">
@@ -45,27 +45,26 @@
                                 </div>
                                 <nav class="rs-menu">
                                     <ul class="nav-menu">
-                                        <li class="menu-item">
-                                            <a href="#">Trang chủ</a>
-                                        </li>   
-                                        <li class="menu-item">
-                                            <a href="#">Giới thiệu</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#">Dịch vụ <i class="fa fa-angle-down mr-0" aria-hidden="true"></i></a>
-                                            <ul class="sub-menu">
-                                                <li><a href="">Đổi giấy phép lái xe hạng A1</a></li>
-                                                <li><a href="">Đổi giấy phép lái xe hạng A1</a></li>
-                                                <li><a href="">Đổi giấy phép lái xe hạng B</a></li>
-                                                <li><a href="">Đổi giấy phép lái xe hạng C</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#">Chia sẻ kiến thức</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#">Liên hệ</a>
-                                        </li>
+                                        @foreach ($service->getMenuItems() as $menu)
+                                            <li class="menu-item">
+                                                <a href="{{ $menu->link ?? url('/') }}">{{ $menu->name }} 
+                                                    @if($menu->children_menus->count())
+                                                        <i class="fa fa-angle-down mr-0" aria-hidden="true"></i>
+                                                    @endif
+                                                </a>
+                                                @if($menu->children_menus->count())
+                                                    <ul class="sub-menu">
+                                                        @foreach($menu->children_menus as $child)
+                                                            <li>
+                                                                <a href="{{ $child->link ?? url('/') }}">
+                                                                    {{ $child->name }}
+                                                                </a>
+                                                            </li>
+                                                        @endforeach
+                                                    </ul>
+                                                @endif
+                                            </li>
+                                        @endforeach
                                     </ul>
                                 </nav>                                         
                             </div> 

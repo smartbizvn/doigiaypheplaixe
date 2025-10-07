@@ -50,30 +50,7 @@
                         </ul>
                     </div>
                 </li>
-                @php
-                    $active_document = (request()->is('admin/documents*')  || request()->is('admin/info_documents*'))  ? true : false;
-                @endphp
-                <li class="nav-item">
-                    <a class="nav-link menu-link" href="#sidebarDocument" data-bs-toggle="collapse" role="button"
-                        aria-expanded="{{ $active_document ? 'true' : 'false' }}" aria-controls="sidebarDocument">
-                        <i class="ri-attachment-line"></i> <span data-key="t-dashboards">Quản lý Văn bản</span>
-                    </a>
-                    <div class="collapse menu-dropdown {{ $active_document ? 'show' : '' }}" id="sidebarDocument">
-                        <ul class="nav nav-sm flex-column">
-                            @can('documents_access')
-                            <li class="nav-item">
-                                <a href="{{ route("admin.documents.index") }}" class="nav-link {{ request()->is('admin/documents*') ? 'active' : '' }}"> Quản lý Văn bản </a>
-                            </li>
-                            @endcan
-                            @can('info_documents_access')
-                            <li class="nav-item">
-                                <a href="{{ route("admin.info_documents.index") }}" class="nav-link {{ request()->is('admin/info_documents*') ? 'active' : '' }}"> Thông tin Văn bản </a>
-                            </li>
-                            @endcan
-                        </ul>
-                    </div>
-                </li>
-                
+
                 @can('banners_access')
                 <li class="nav-item">
                     <a class="nav-link menu-link {{ request()->is('admin/banners*') ? 'active' : '' }}" href="{{ route("admin.banners.index") }}">
@@ -133,10 +110,10 @@
             </ul>
         </div>
     </div>
-    {{-- <div class="text-center text-muted">
+    <div class="text-center text-muted">
         <hr>
         Phát triển bởi <a target="_blank" href="{{ config('constants.link_copyright') }}"><span class='text-danger'>{{ config('constants.name_copyright') }}</span></a>
-    </div> --}}
+    </div>
 </div>
 
 <div class="vertical-overlay"></div>
