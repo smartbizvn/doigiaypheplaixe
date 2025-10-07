@@ -47,22 +47,4 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['CheckAuth
             Route::post('changeStatus', 'changeStatus')->name('changeStatus');
         });
     });
-
-    # Documents
-    Route::resource('documents', DocumentController::class)->parameters(['documents' => 'entity']);
-    Route::group(['prefix' => 'documents', 'as' => 'documents.'], function () {
-        Route::controller(DocumentController::class)->group(function () {
-            Route::post('delete', 'delete')->name('delete');
-            Route::post('changeStatus', 'changeStatus')->name('changeStatus');
-        });
-    });
-
-    # Info Documents
-    Route::resource('info_documents', InfoDocumentController::class)->parameters(['info_documents' => 'entity']);
-    Route::group(['prefix' => 'info_documents', 'as' => 'info_documents.'], function () {
-        Route::controller(InfoDocumentController::class)->group(function () {
-            Route::post('delete', 'delete')->name('delete');
-            Route::post('changeStatus', 'changeStatus')->name('changeStatus');
-        });
-    });
 });

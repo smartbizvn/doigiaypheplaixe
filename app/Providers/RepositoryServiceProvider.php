@@ -24,13 +24,6 @@ use App\Repositories\Banner\BannerRepositoryInterface;
 # Menu
 use App\Repositories\Menu\MenuRepository;
 use App\Repositories\Menu\MenuRepositoryInterface;
-# Document
-use App\Repositories\Document\DocumentRepository;
-use App\Repositories\Document\DocumentRepositoryInterface;
-# InfoDocument
-use App\Repositories\InfoDocument\InfoDocumentRepository;
-use App\Repositories\InfoDocument\InfoDocumentRepositoryInterface;
-
 class RepositoryServiceProvider extends ServiceProvider
 {
     /**
@@ -53,10 +46,6 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(BannerRepositoryInterface::class, BannerRepository::class);
         # Menu
         $this->app->bind(MenuRepositoryInterface::class, MenuRepository::class);
-        # Document
-        $this->app->bind(DocumentRepositoryInterface::class, DocumentRepository::class);
-        # InfoDocument
-        $this->app->bind(InfoDocumentRepositoryInterface::class, InfoDocumentRepository::class);
     }
 
     /**
