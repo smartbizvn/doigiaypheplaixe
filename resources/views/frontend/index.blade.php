@@ -8,12 +8,12 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-last">
                             <div class="img-part">
-                                <img src="{{ asset('frontend')}}/assets/images/slider/home8/2.png" alt="">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
                             </div>
                         </div>
                         <div class="col-lg-6 pr-50">
                             <div class="content">
-                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Cooking Start Learing recipes to Cook today</h1>
+                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng A1</h1>
                             </div>
                         </div>  
                     </div>
@@ -24,12 +24,60 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-last">
                             <div class="img-part">
-                                <img src="{{ asset('frontend')}}/assets/images/slider/home8/2.png" alt="">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
                             </div>
                         </div>
                         <div class="col-lg-6 pr-80">
                             <div class="content">
-                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Be Happy healthy And Successful Simplifited</h1>
+                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng A</h1>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="slide-part">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-last">
+                            <div class="img-part">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pr-80">
+                            <div class="content">
+                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng B số tự động</h1>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="slide-part">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-last">
+                            <div class="img-part">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pr-80">
+                            <div class="content">
+                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng B số sàn</h1>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="slide-part">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-last">
+                            <div class="img-part">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pr-80">
+                            <div class="content">
+                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng C</h1>
                             </div>
                         </div>  
                     </div>
@@ -115,7 +163,7 @@
                     <div class="courses-item">
                         <div class="courses-grid">
                             <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/assets/images/courses/home8/1.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng A1"></a>
                             </div>
                             <div class="content-part">
                                 <div class="course-price">
@@ -130,7 +178,7 @@
                     <div class="courses-item">
                         <div class="courses-grid">
                             <div class="img-part">
-                                <a href="#"> <img src="{{ asset('frontend')}}/assets/images/courses/home8/2.jpg" alt=""></a>
+                                <a href="#"> <img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng A"></a>
                             </div>
                             <div class="content-part">
                                 <div class="course-price">
@@ -145,13 +193,13 @@
                     <div class="courses-item">
                         <div class="courses-grid">
                             <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/assets/images/courses/home8/3.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng B số tự động"></a>
                             </div>
                             <div class="content-part">
                                 <div class="course-price">
                                     <span class="price">1.000.000 đ</span>
                                 </div>
-                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng B (số tự động)</a></h3>
+                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng B số tự động</a></h3>
                             </div>
                         </div>
                     </div>
@@ -160,13 +208,13 @@
                     <div class="courses-item">
                         <div class="courses-grid">
                             <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/assets/images/courses/home8/4.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng B số tự sàn"></a>
                             </div>
                             <div class="content-part">
                                 <div class="course-price">
                                     <span class="price">1.000.000 đ</span>
                                 </div>
-                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng B (số sàn)</a></h3>
+                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng B số sàn</a></h3>
                             </div>
                         </div>
                     </div>
@@ -175,7 +223,7 @@
                     <div class="courses-item">
                         <div class="courses-grid">
                             <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/assets/images/courses/home8/5.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng C"></a>
                             </div>
                             <div class="content-part">
                                 <div class="course-price">
@@ -190,7 +238,7 @@
                     <div class="courses-item">
                         <div class="courses-grid">
                             <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/assets/images/courses/home8/5.jpg" alt=""></a>
+                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Thi sát hạch lái xe hạng A"></a>
                             </div>
                             <div class="content-part">
                                 <div class="course-price">
@@ -383,11 +431,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Spicy Quince And Cranberry Chutney</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>
@@ -401,11 +444,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Persimmon, Pomegranate, And Massaged Kale Salad</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>
@@ -419,11 +457,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Essential Fall Fruits That Aren’t Apples</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>
@@ -437,11 +470,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Job Seekers From Overcoming Failure</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>
@@ -455,11 +483,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Best Technology Graduation Ceremony.</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>
@@ -473,11 +496,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Educational Technology and Mobile Learning</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>
@@ -491,11 +509,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Job Seekers From Overcoming Failure</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>
@@ -509,11 +522,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Educavo Learning Gala Day For Kids</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>
@@ -527,11 +535,6 @@
                         </div>
                         <div class="content-part">
                             <h4 class="title"><a href="#">Best Technology Graduation Ceremony.</a></h4>
-                        <div class="time-sec">
-                            <div class="timesec"><i class="fa flaticon-clock"></i> 11:00 AM -  
-                            03:00 AM </div>
-                            <div class="address"><i class="fa fa-map-o"></i> New Margania</div>
-                        </div>
                         </div> 
                     </div>
                 </div>

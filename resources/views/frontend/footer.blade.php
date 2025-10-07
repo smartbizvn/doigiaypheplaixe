@@ -42,42 +42,19 @@
                 
                 <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
                     <h3 class="widget-title">CHIA SẺ KIẾN THỨC</h3>
-                    <div class="recent-post md-pb-0">
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">University while the lovely valley team work</a>
-                            </div>
-                        </div>
-                    </div> 
-                    <div class="recent-post md-pb-0">
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">High school program starting soon 2021</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="recent-post md-pb-0">
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">High school program starting soon 2021</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="recent-post md-pb-0">
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">High school program starting soon 2021</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget">
-                    <h3 class="widget-title">KẾT NỐI VỚI CHÚNG TÔI</h3>
                     <ul class="site-map">
                         <li><a href="#">Đổi giấy phép lái xe hạng A1</a></li>
                         <li><a href="#">Đổi giấy phép lái xe hạng A</a></li>
                         <li><a href="#">Đổi giấy phép lái xe hạng B</a></li>
                         <li><a href="#">Đổi giấy phép lái xe hạng C</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget">
+                    <h3 class="widget-title">THỜI GIAN LÀM VIỆC</h3>
+                    <ul class="site-map">
+                        <li><a href="#">Thứ 2 - Thứ 6: 8:00 - 17:00</a></li>
+                        <li><a href="#">Thứ 7: 8:00 - 12:00</a></li>
+                        <li><a href="#">Chủ nhật: Nghỉ</a></li>
                     </ul>
                 </div>
             </div>

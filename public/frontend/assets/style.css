@@ -6538,7 +6538,7 @@ body .modal-backdrop {
   transform: scale(1);
 }
 .rs-popular-courses.style5 .courses-item .courses-grid .content-part {
-  padding: 50px 30px 20px;
+  padding: 40px 30px 10px;
   position: relative;
   text-align: center;
   background: #F9F8F8;
@@ -14310,7 +14310,7 @@ body .modal-backdrop {
 }
 .rs-footer.home9-style .footer-top .address-widget li {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 .rs-footer.home9-style .footer-top .address-widget li i {
   position: absolute;
