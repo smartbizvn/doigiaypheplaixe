@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
     <head>
+        {!! getSetting('top_head') !!}
         <meta charset="utf-8">
         <title> {{ $title }}</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,8 +33,10 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('frontend')}}/assets/css/responsive.css">
         <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/style.css')}}">
         @stack('extend_style')
+        {!! getSetting('bottom_head') !!}
     </head>
-    <body class="defult-home"> 
+    <body class="defult-home">
+        {!! getSetting('top_body') !!}
         @include('frontend.header')
         <div class='wrap_content'>
             @yield('content')
@@ -63,5 +66,6 @@
         <script src="{{ asset('frontend')}}/assets/js/plugins.js"></script>
         <script src="{{ asset('frontend')}}/assets/js/main.js"></script>
         <script src="{{ asset('frontend/js/frontend.js')}}"></script>
+        {!! getSetting('bottom_body') !!}
     </body>
 </html>

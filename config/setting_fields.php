@@ -87,8 +87,15 @@ return [
         'elements' => [
             [
                 'type' => 'textarea',
-                'name' => 'in_head',
-                'label' => 'Trong thẻ <head>',
+                'name' => 'top_head',
+                'label' => 'Dưới thẻ <head>',
+                'rules' => '',
+                'placeholder' => 'Mã code'
+            ],
+            [
+                'type' => 'textarea',
+                'name' => 'bottom_head',
+                'label' => 'Trên thẻ </head>',
                 'rules' => '',
                 'placeholder' => 'Mã code'
             ],
@@ -101,7 +108,7 @@ return [
             ] ,
             [
                 'type' => 'textarea',
-                'name' => 'botom_body',
+                'name' => 'bottom_body',
                 'label' => 'Trên thẻ </body>',
                 'rules' => '',
                 'placeholder' => 'Mã code'
