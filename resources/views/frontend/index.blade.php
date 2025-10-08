@@ -8,7 +8,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-last">
                             <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
                             </div>
                         </div>
                         <div class="col-lg-6 pr-50">
@@ -24,7 +24,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-last">
                             <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
                             </div>
                         </div>
                         <div class="col-lg-6 pr-80">
@@ -40,7 +40,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-last">
                             <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
                             </div>
                         </div>
                         <div class="col-lg-6 pr-80">
@@ -56,7 +56,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-last">
                             <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
                             </div>
                         </div>
                         <div class="col-lg-6 pr-80">
@@ -72,7 +72,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-last">
                             <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM">
+                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
                             </div>
                         </div>
                         <div class="col-lg-6 pr-80">
@@ -255,11 +255,11 @@
     
     <div class="rs-cta">
         <div class="cta-img">
-            <img src="{{ asset('frontend')}}/images/promotion_1.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM">
+            <img src="{{ asset('frontend')}}/images/promotion_1.jpg" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
         </div>
         <div class="cta-content text-center">
             <div class="sec-title mb-40 md-mb-20 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                <h2 class="title mb-16 md-mb-10">Chương trình ưu đãi năm 2025</h2>
+                <h2 class="title mb-16 md-mb-10 text-danger">Chương trình ưu đãi năm 2025</h2>
                 <div class="desc fs_20">👉 Dành cho <b class='text-danger fs_30'>250</b> khách hàng đầu tiên! Bạn sẽ được ✂ giảm ngay <b class='text-danger fs_30'>20%</b> phí dịch vụ cho tất cả các loại dịch vụ đổi giấy phép lái xe các hạng A1, A, B, C. <br><p class='mt-2'><b class='text-danger fs_30'>☎ Liên hệ : 0973 011 550 </b></p></div>
             </div>
             <div class="btn-part wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
