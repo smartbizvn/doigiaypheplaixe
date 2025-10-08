@@ -18,9 +18,11 @@ class HomeController extends BaseController
     }
 
     public function index(Request $request){
+        $featureArticles  = $this->articleRepository->featureArticles();
         $data  = array(
+            'feature_articles' => $featureArticles,
             'title' => getSetting('title'),
-            'meta_description' => getSetting('meta_description')
+            'meta_description' => getSetting('meta_description'),
         );
         return view('frontend.index',$data);
     }
@@ -48,6 +50,19 @@ class HomeController extends BaseController
             'title' => getTitle($detailArticle),
             'meta_description' => getDesc($detailArticle)
         );
+        return view('frontend.detail', $data);
+    }
+
+    public function page(Request $req){
+        $categoryArticle = $this->articleCategoryRepository->find($req->slug);
+        if(!$categoryArticle){
+            return abort(404);
+        }
+        $data  = array(
+            'detail_article' => $categoryArticle,
+            'title' => getTitle($categoryArticle),
+            'meta_description' => getDesc($categoryArticle)
+        );  
         return view('frontend.detail', $data);
     }
 

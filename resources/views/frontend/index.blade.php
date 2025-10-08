@@ -421,123 +421,19 @@
                 <h2 class="title mb-30">Lý thuyết & thực tế</h2>
             </div>
             <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-autoplay-timeout="7000" data-smart-speed="2000" data-dots="true" data-nav="false" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
+                @foreach($feature_articles as $article)
                 <div class="event-item">
                     <div class="event-short">
                         <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/1.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
+                            <a title='{{ $article->name }}' href="{{ url('chia-se-kien-thuc', $article->url) }}"><img src="{{ viewImage($article->image) }}" alt="{{ $article->name }}" width="411" height="232" /></a>
+                            <div class="dates">{{ $article->created_at->format('d/m/Y') }}</div>
                         </div>
                         <div class="content-part">
-                            <h4 class="title"><a href="#">Spicy Quince And Cranberry Chutney</a></h4>
+                            <h4 class="title"><a title='{{ $article->name }}' href="{{ url('chia-se-kien-thuc', $article->url) }}">{{ $article->name }}</a></h4>
                         </div> 
                     </div>
                 </div>
-                <div class="event-item">
-                    <div class="event-short">
-                        <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/2.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title"><a href="#">Persimmon, Pomegranate, And Massaged Kale Salad</a></h4>
-                        </div> 
-                    </div>
-                </div>
-                <div class="event-item">
-                    <div class="event-short">
-                        <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/3.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title"><a href="#">Essential Fall Fruits That Aren’t Apples</a></h4>
-                        </div> 
-                    </div>
-                </div>
-                <div class="event-item">
-                    <div class="event-short">
-                        <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/4.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title"><a href="#">Job Seekers From Overcoming Failure</a></h4>
-                        </div> 
-                    </div>
-                </div>
-                <div class="event-item">
-                    <div class="event-short">
-                        <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/5.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title"><a href="#">Best Technology Graduation Ceremony.</a></h4>
-                        </div> 
-                    </div>
-                </div>
-                <div class="event-item">
-                    <div class="event-short">
-                        <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/6.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title"><a href="#">Educational Technology and Mobile Learning</a></h4>
-                        </div> 
-                    </div>
-                </div>
-                <div class="event-item">
-                    <div class="event-short">
-                        <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/7.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title"><a href="#">Job Seekers From Overcoming Failure</a></h4>
-                        </div> 
-                    </div>
-                </div>
-                <div class="event-item">
-                    <div class="event-short">
-                        <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/8.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title"><a href="#">Educavo Learning Gala Day For Kids</a></h4>
-                        </div> 
-                    </div>
-                </div>
-                <div class="event-item">
-                    <div class="event-short">
-                        <div class="featured-img">
-                            <img src="{{ asset('frontend')}}/assets/images/event/9.jpg" alt="Image">
-                            <div class="dates">
-                                    July 24, 2020  
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h4 class="title"><a href="#">Best Technology Graduation Ceremony.</a></h4>
-                        </div> 
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div> 
     </div>
@@ -547,56 +443,56 @@
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/images/1.jpg"><img src="{{ asset('frontend')}}/images/1.jpg" alt=""></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/1.jpg"><img src="{{ asset('frontend')}}/images/1.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/images/2.jpg"><img src="{{ asset('frontend')}}/images/2.jpg" alt=""></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/2.jpg"><img src="{{ asset('frontend')}}/images/2.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/images/3.jpg"><img src="{{ asset('frontend')}}/images/3.jpg" alt=""></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/3.jpg"><img src="{{ asset('frontend')}}/images/3.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/images/4.jpg"><img src="{{ asset('frontend')}}/images/4.jpg" alt=""></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/4.jpg"><img src="{{ asset('frontend')}}/images/4.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/images/7.jpg"><img src="{{ asset('frontend')}}/images/7.jpg" alt=""></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/7.jpg"><img src="{{ asset('frontend')}}/images/7.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/images/9.jpg"><img src="{{ asset('frontend')}}/images/9.jpg" alt=""></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/9.jpg"><img src="{{ asset('frontend')}}/images/9.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/images/7.png"><img src="{{ asset('frontend')}}/images/7.png" alt=""></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/7.png"><img src="{{ asset('frontend')}}/images/7.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div> 
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/images/8.png"><img src="{{ asset('frontend')}}/images/8.png" alt=""></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/8.png"><img src="{{ asset('frontend')}}/images/8.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div> 

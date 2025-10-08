@@ -50,7 +50,7 @@
                                                 </a>
                                             </td>
                                             <td>
-                                                <a target="_blank" href="{{ url('bai-viet/'.$result->slug) }}">
+                                                <a target="_blank" href="{{ url('chia-se-kien-thuc/'.$result->slug) }}">
                                                     {{ cutText($result->name ?? "") }}
                                                 </a>
                                             </td>

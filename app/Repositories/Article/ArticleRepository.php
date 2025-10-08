@@ -53,7 +53,7 @@ class ArticleRepository extends BaseRepository implements EntityRepositoryInterf
 
     public function featureArticles()
     {
-        $query = $this->query()->where(['feature' => true, 'active' => true])->orderBy('created_at', 'desc')->limit(6) ->get();
+        $query = $this->query()->where(['feature' => true, 'active' => true])->orderBy('created_at', 'desc')->limit(9) ->get();
         return $query;
     }
 
