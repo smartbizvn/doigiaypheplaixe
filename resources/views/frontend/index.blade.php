@@ -164,10 +164,10 @@
                     <div class="courses-item">
                         <div class="courses-grid">
                             <div class="img-part">
-                                <a title="{{ $category->name }}" href="{{ url($category->slug) }}"><img src="{{ viewImage($article->image) }}" alt="{{ $category->name }}" width="393" height="250"></a>
+                                <a title="{{ $category->name }}" href="{{ url($category->slug) }}"><img src="{{ viewImage($category->image) }}" alt="{{ $category->name }}" width="393" height="250"></a>
                             </div>
-                            <div class="content-part">
-                                <h3 class="title"><a title="{{ $category->name }}" href="{{ url($category->slug) }}">{{ $category->name }}</a></h3>
+                            <div class="content-part d-flex justify-content-center text-center">
+                                <h3 class="title mb-0"><a title="{{ $category->name }}" href="{{ url($category->slug) }}">{{ $category->name }}</a></h3>
                             </div>
                         </div>
                     </div>

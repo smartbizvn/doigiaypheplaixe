@@ -6538,11 +6538,11 @@ body .modal-backdrop {
   transform: scale(1);
 }
 .rs-popular-courses.style5 .courses-item .courses-grid .content-part {
-  padding: 30px 30px 10px;
-  position: relative;
   text-align: center;
   background: #F9F8F8;
   border-color: #F9F8F8;
+  min-height: 120px;
+  padding: 20px;
 }
 .rs-popular-courses.style5 .courses-item .courses-grid .content-part .course-price .price {
   padding: 9px 20px;
@@ -6559,7 +6559,6 @@ body .modal-backdrop {
 .rs-popular-courses.style5 .courses-item .courses-grid .content-part .title {
   font-size: 22px;
   line-height: 32px;
-  margin-bottom: 18px;
 }
 .rs-popular-courses.style5 .courses-item .courses-grid .content-part .title a {
   color: #031a3d;
