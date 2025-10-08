@@ -41,7 +41,7 @@ class ArticleCategoryRepository extends BaseRepository implements EntityReposito
 
     public function homeArticleCategories()
     {
-        $query = $this->query()->where(['show_homepage' => true, 'active' => true])->orderBy('order','asc')->get();
+        $query = $this->query()->where(['show_homepage' => true, 'active' => true, 'type_category' => 'page'])->orderBy('order','asc')->get();
         return $query;
     }
 

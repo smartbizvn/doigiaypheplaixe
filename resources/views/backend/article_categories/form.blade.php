@@ -96,6 +96,14 @@
                         </select>
                     </div>
 
+                    <div class="mb-3">
+                        <label class="form-label">Loại</label>
+                        <select class="form-select" name="type_category">
+                            <option value="page" {{ old('type_category', $result->type_category ?? null) == 'page' ? 'selected' : '' }}>Trang</option>
+                            <option value="category" {{ old('type_category', $result->type_category ?? null) == 'category' ? 'selected' : '' }}>Danh mục</option>
+                        </select>
+                    </div>
+
                     <div>
                         <label class="form-label">Thứ tự hiển thị</label>
                         <input type="number" class="form-control"

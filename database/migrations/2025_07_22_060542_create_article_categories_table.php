@@ -22,7 +22,7 @@ return new class extends Migration
             $table->longText('content')->nullable();
             $table->boolean('feature')->default(false);
             $table->boolean('show_homepage')->default(false);
-
+            $table->string('type_category')->nullable();
             $table->text('meta_title')->nullable();
             $table->text('meta_keyword')->nullable();
             $table->text('meta_desc')->nullable();

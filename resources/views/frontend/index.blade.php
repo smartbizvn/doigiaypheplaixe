@@ -159,96 +159,20 @@
                 <h2 class="title mb-0">Dịch vụ nổi bật</h2>
             </div>
             <div class="row">
+                @foreach($home_categories as $category)
                 <div class="col-lg-4 col-md-6 mb-30">
                     <div class="courses-item">
                         <div class="courses-grid">
                             <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng A1"></a>
+                                <a title="{{ $category->name }}" href="{{ url($category->slug) }}"><img src="{{ viewImage($article->image) }}" alt="{{ $category->name }}" width="393" height="250"></a>
                             </div>
                             <div class="content-part">
-                                <div class="course-price">
-                                    <span class="price">900.000 đ</span>
-                                </div>
-                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng A1</a></h3>
+                                <h3 class="title"><a title="{{ $category->name }}" href="{{ url($category->slug) }}">{{ $category->name }}</a></h3>
                             </div>
                         </div>
                     </div>
                 </div>  
-                <div class="col-lg-4 col-md-6 mb-30">
-                    <div class="courses-item">
-                        <div class="courses-grid">
-                            <div class="img-part">
-                                <a href="#"> <img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng A"></a>
-                            </div>
-                            <div class="content-part">
-                                <div class="course-price">
-                                    <span class="price">900.000 đ</span>
-                                </div>
-                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng A</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-lg-4 col-md-6 mb-30">
-                    <div class="courses-item">
-                        <div class="courses-grid">
-                            <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng B số tự động"></a>
-                            </div>
-                            <div class="content-part">
-                                <div class="course-price">
-                                    <span class="price">1.000.000 đ</span>
-                                </div>
-                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng B số tự động</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-lg-4 col-md-6 md-mb-30">
-                    <div class="courses-item">
-                        <div class="courses-grid">
-                            <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng B số tự sàn"></a>
-                            </div>
-                            <div class="content-part">
-                                <div class="course-price">
-                                    <span class="price">1.000.000 đ</span>
-                                </div>
-                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng B số sàn</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-lg-4 col-md-6 sm-mb-30">
-                    <div class="courses-item">
-                        <div class="courses-grid">
-                            <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Dịch vụ đổi giấy phép lái xe hạng C"></a>
-                            </div>
-                            <div class="content-part">
-                                <div class="course-price">
-                                    <span class="price">1.000.000 đ</span>
-                                </div>
-                                <h3 class="title"><a href="#">Đổi giấy phép lái xe <br> hạng C</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-lg-4 col-md-6 sm-mb-30">
-                    <div class="courses-item">
-                        <div class="courses-grid">
-                            <div class="img-part">
-                                <a href="#"><img src="{{ asset('frontend')}}/images/gplx.png" alt="Thi sát hạch lái xe hạng A"></a>
-                            </div>
-                            <div class="content-part">
-                                <div class="course-price">
-                                    <span class="price">Liên hệ</span>
-                                </div>
-                                <h3 class="title"><a href="#">Thi sát hạch lái xe <br> hạng A</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+                @endforeach
             </div>
         </div>
     </div>
@@ -260,7 +184,7 @@
         <div class="cta-content text-center">
             <div class="sec-title mb-40 md-mb-20 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                 <h2 class="title mb-16 md-mb-10 text-danger">Chương trình ưu đãi năm 2025</h2>
-                <div class="desc fs_20">👉 Dành cho <b class='text-danger fs_30'>250</b> khách hàng đầu tiên! Bạn sẽ được ✂ giảm ngay <b class='text-danger fs_30'>20%</b> phí dịch vụ cho tất cả các loại dịch vụ đổi giấy phép lái xe các hạng A1, A, B, C. <br><p class='mt-2'><b class='text-danger fs_30'>☎ Liên hệ : 0973 011 550 </b></p></div>
+                <div class="desc fs_20">👉 Dành cho <b class='text-danger fs_30'>250</b> khách hàng đầu tiên! Bạn sẽ được ✂ giảm ngay <b class='text-danger fs_30'>20%</b> phí dịch vụ cho tất cả các loại dịch vụ đổi giấy phép lái xe các hạng A1, A, B, C. <br><p class='mt-2'><b class='text-danger fs_30'>☎ Hotline : 0973 011 550 </b></p></div>
             </div>
             <div class="btn-part wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                 <a class="readon2" href="#">Đăng ký ngay</a>
@@ -336,8 +260,8 @@
                 <div class="col-lg-5 lg-pr-0 md-mb-50">
                     <div class="choose-us-part">
                         <div class="sec-title wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                            <h2 class="title mb-10">Lý do khách hàng lựa chọn chúng tôi</h2>
-                            <p class=" mb-35">Chúng tôi cam kết mang đến dịch vụ chất lượng với mức giá hợp lý, giúp khách hàng tối ưu chi phí mà vẫn đảm bảo hiệu quả tối đa</p>
+                            <h2 class="title mb-10">3 lý do khách hàng lựa chọn chúng tôi</h2>
+                            <p class=" mb-35">Chúng tôi cam kết mang đến dịch vụ chất lượng với mức giá hợp lý, giúp khách hàng tối ưu chi phí, tiết kiệm thời gian</p>
                         </div>
                         <div class="facilities-part">
                             <div class="single-facility wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
@@ -347,7 +271,7 @@
                                 </div>
                                 <div class="text-part">
                                     <h4 class="title">Tiết kiệm chi phí</h4>
-                                    <p class="desc">Chúng tôi cam kết mang đến dịch vụ chất lượng với mức giá hợp lý, giúp khách hàng tối ưu chi phí mà vẫn đảm bảo hiệu quả tối đa.</p>
+                                    <p class="desc">Chúng tôi cam kết mang đến dịch vụ chất lượng với mức giá hợp lý, giúp khách hàng tối ưu chi phí.</p>
                                 </div>
                             </div>
                             <div class="single-facility wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 400ms; animation-name: fadeInUp;">
@@ -357,7 +281,7 @@
                                 </div>
                                 <div class="text-part">
                                     <h4 class="title">Thủ tục nhanh chóng</h4>
-                                    <p class="desc">Quy trình đơn giản, xử lý hồ sơ nhanh gọn, tiết kiệm thời gian cho khách hàng trong từng bước đăng ký và thực hiện dịch vụ.</p>
+                                    <p class="desc">Quy trình đơn giản, xử lý hồ sơ nhanh gọn, tiết kiệm thời gian cho khách hàng trong từng bước đăng ký.</p>
                                 </div>
                             </div>
                             <div class="single-facility wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 500ms; animation-name: fadeInUp;">
@@ -367,7 +291,7 @@
                                 </div>
                                 <div class="text-part">
                                     <h4 class="title">Hỗ trợ tận tâm</h4>
-                                    <p class="desc">Đội ngũ tư vấn viên chuyên nghiệp, luôn sẵn sàng lắng nghe và đồng hành cùng khách hàng 24/7, mang lại sự an tâm tuyệt đối.</p>
+                                    <p class="desc">Đội ngũ tư vấn viên chuyên nghiệp, luôn sẵn sàng lắng nghe và đồng hành cùng khách hàng 24/7, mang lại sự an tâm tuyệt đối cho khách hàng.</p>
                                 </div>
                             </div>
                         </div>

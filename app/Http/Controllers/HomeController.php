@@ -19,8 +19,10 @@ class HomeController extends BaseController
 
     public function index(Request $request){
         $featureArticles  = $this->articleRepository->featureArticles();
+        $homeCategories = $this->articleCategoryRepository->homeArticleCategories();
         $data  = array(
             'feature_articles' => $featureArticles,
+            'home_categories' => $homeCategories,
             'title' => getSetting('title'),
             'meta_description' => getSetting('meta_description'),
         );

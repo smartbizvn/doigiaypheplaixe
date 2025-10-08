@@ -92,6 +92,7 @@ class ArticleCategoryController extends BaseController
             'active'        => $request->active ?? false,
             'feature'       => $request->feature ?? false,
             'show_homepage' => $request->show_homepage ?? false,
+            'type_category' => $request->type_category ?? 'page',
             'order'         => $request->order ?? 0,
             'meta_title'    => $request->meta_title,
             'meta_keyword'  => $request->meta_keyword,

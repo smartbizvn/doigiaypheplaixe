@@ -26,6 +26,7 @@
                                     <th class="text-left sortable" width="300">Tên danh mục</th>
                                     <th class="text-left sortable" width="300">Danh mục cha</th>
                                     <th class="text-left">Hiển thị trang chủ</th>
+                                    <th class="text-left">Loại danh mục</th>
                                     {{-- Cột chung --}}
                                     @include('backend.common.table_column_common', ['type_column' => 'head'])
                                 </tr>
@@ -59,6 +60,9 @@
                                             </td>
                                             <td>
                                                 {{ $result->show_homepage == true ? "Hiển thị" : "Không hiển thị" }}
+                                            </td>
+                                            <td>
+                                                {{ $result->type_category == 'category' ? "Danh mục" : "Trang" }}
                                             </td>
                                             {{-- Cột chung --}}
                                             @include('backend.common.table_column_common', ['type_column' => 'body'])
