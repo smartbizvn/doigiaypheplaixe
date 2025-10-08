@@ -13,7 +13,7 @@
                         </div>
                         <div class="col-lg-6 pr-50">
                             <div class="content">
-                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng A1</h1>
+                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng A1</h2>
                             </div>
                         </div>  
                     </div>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-lg-6 pr-80">
                             <div class="content">
-                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng A</h1>
+                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng A</h2>
                             </div>
                         </div>  
                     </div>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-lg-6 pr-80">
                             <div class="content">
-                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng B số tự động</h1>
+                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng B số tự động</h2>
                             </div>
                         </div>  
                     </div>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="col-lg-6 pr-80">
                             <div class="content">
-                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng B số sàn</h1>
+                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng B số sàn</h2>
                             </div>
                         </div>  
                     </div>
@@ -77,7 +77,7 @@
                         </div>
                         <div class="col-lg-6 pr-80">
                             <div class="content">
-                                <h1 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng C</h1>
+                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng C</h2>
                             </div>
                         </div>  
                     </div>
