@@ -547,56 +547,56 @@
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/home8/1.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/home8/1.jpg" alt=""></a>
+                        <a class="image-popup" href="{{ asset('frontend')}}/images/1.jpg"><img src="{{ asset('frontend')}}/images/1.jpg" alt=""></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/home8/2.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/home8/2.jpg" alt=""></a>
+                        <a class="image-popup" href="{{ asset('frontend')}}/images/2.jpg"><img src="{{ asset('frontend')}}/images/2.jpg" alt=""></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/home8/3.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/home8/3.jpg" alt=""></a>
+                        <a class="image-popup" href="{{ asset('frontend')}}/images/3.jpg"><img src="{{ asset('frontend')}}/images/3.jpg" alt=""></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/home8/4.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/home8/4.jpg" alt=""></a>
+                        <a class="image-popup" href="{{ asset('frontend')}}/images/4.jpg"><img src="{{ asset('frontend')}}/images/4.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/home8/7.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/home8/7.jpg" alt=""></a>
+                        <a class="image-popup" href="{{ asset('frontend')}}/images/7.jpg"><img src="{{ asset('frontend')}}/images/7.jpg" alt=""></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/home8/9.jpg"><img src="{{ asset('frontend')}}/assets/images/gallery/home8/9.jpg" alt=""></a>
+                        <a class="image-popup" href="{{ asset('frontend')}}/images/9.jpg"><img src="{{ asset('frontend')}}/images/9.jpg" alt=""></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/home8/7.png"><img src="{{ asset('frontend')}}/assets/images/gallery/home8/7.png" alt=""></a>
+                        <a class="image-popup" href="{{ asset('frontend')}}/images/7.png"><img src="{{ asset('frontend')}}/images/7.png" alt=""></a>
                     </div>
                 </div>
             </div> 
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a class="image-popup" href="{{ asset('frontend')}}/assets/images/gallery/home8/8.png"><img src="{{ asset('frontend')}}/assets/images/gallery/home8/8.png" alt=""></a>
+                        <a class="image-popup" href="{{ asset('frontend')}}/images/8.png"><img src="{{ asset('frontend')}}/images/8.png" alt=""></a>
                     </div>
                 </div>
             </div> 
