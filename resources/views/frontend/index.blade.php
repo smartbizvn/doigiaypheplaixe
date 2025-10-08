@@ -167,7 +167,7 @@
                                 <a title="{{ $category->name }}" href="{{ url($category->slug) }}"><img src="{{ viewImage($category->image) }}" alt="{{ $category->name }}" width="393" height="250"></a>
                             </div>
                             <div class="content-part d-flex justify-content-center text-center">
-                                <h3 class="title mb-0"><a title="{{ $category->name }}" href="{{ url($category->slug) }}">{{ $category->name }}</a></h3>
+                                <h3 class="title mb-0 pt-2"><a title="{{ $category->name }}" href="{{ url($category->slug) }}">{{ $category->name }}</a></h3>
                             </div>
                         </div>
                     </div>
@@ -352,8 +352,8 @@
                             <a title='{{ $article->name }}' href="{{ url('chia-se-kien-thuc', $article->url) }}"><img src="{{ viewImage($article->image) }}" alt="{{ $article->name }}" width="411" height="232" /></a>
                             <div class="dates">{{ $article->created_at->format('d/m/Y') }}</div>
                         </div>
-                        <div class="content-part">
-                            <h4 class="title"><a title='{{ $article->name }}' href="{{ url('chia-se-kien-thuc', $article->url) }}">{{ $article->name }}</a></h4>
+                        <div class="content-part d-flex justify-content-center text-center">
+                            <h4 class="title mb-0"><a title='{{ $article->name }}' href="{{ url('chia-se-kien-thuc', $article->url) }}">{{ $article->name }}</a></h4>
                         </div> 
                     </div>
                 </div>
@@ -367,56 +367,56 @@
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/1.jpg"><img src="{{ asset('frontend')}}/images/1.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/1.jpg"><img class='img-responsive' src="{{ asset('frontend')}}/images/1.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/2.jpg"><img src="{{ asset('frontend')}}/images/2.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/2.jpg"><img class='img-responsive' src="{{ asset('frontend')}}/images/2.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/3.jpg"><img src="{{ asset('frontend')}}/images/3.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/3.jpg"><img class='img-responsive' src="{{ asset('frontend')}}/images/3.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/4.jpg"><img src="{{ asset('frontend')}}/images/4.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/4.jpg"><img class='img-responsive' src="{{ asset('frontend')}}/images/4.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/7.jpg"><img src="{{ asset('frontend')}}/images/7.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/7.jpg"><img class='img-responsive' src="{{ asset('frontend')}}/images/7.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/9.jpg"><img src="{{ asset('frontend')}}/images/9.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/9.jpg"><img class='img-responsive' src="{{ asset('frontend')}}/images/9.jpg" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div>   
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/7.png"><img src="{{ asset('frontend')}}/images/7.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/7.png"><img class='img-responsive' src="{{ asset('frontend')}}/images/7.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div> 
             <div class="col-lg-3 padding-0 p-1 col-md-4 col-sm-6">
                 <div class="gallery-part">
                     <div class="gallery-img">
-                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/8.png"><img src="{{ asset('frontend')}}/images/8.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
+                        <a title='Dịch vụ đổi giấy phép lái xe tại TP.HCM' class="image-popup" href="{{ asset('frontend')}}/images/8.png"><img class='img-responsive' src="{{ asset('frontend')}}/images/8.png" alt="Dịch vụ đổi giấy phép lái xe tại TP.HCM"></a>
                     </div>
                 </div>
             </div> 
