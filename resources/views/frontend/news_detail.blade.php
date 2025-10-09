@@ -7,7 +7,7 @@
         </div>
     </div>
 
-    <div class="rs-inner-blog orange-color pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="rs-inner-blog orange-color pt-30 pb-30">
         <div class="container">
             <div class="blog-deatails">
                 <div class="blog-full">
