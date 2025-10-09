@@ -56,7 +56,7 @@ class HomeController extends BaseController
     }
 
     public function page(Request $req){
-        $categoryArticle = $this->articleCategoryRepository->find($req->slug);
+        $categoryArticle = $this->articleCategoryRepository->articleCategory($req->path());
         if(!$categoryArticle){
             return abort(404);
         }
@@ -65,7 +65,7 @@ class HomeController extends BaseController
             'title' => getTitle($categoryArticle),
             'meta_description' => getDesc($categoryArticle)
         );  
-        return view('frontend.detail', $data);
+        return view('frontend.page', $data);
     }
 
     public function search(Request $req){
