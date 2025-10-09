@@ -50,50 +50,44 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Đăng ký tư vấn</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="free-course-contact">
-                        <span class="mb-30">Đăng ký tư vấn</span>
-                        <div id="form-messages"></div>
-                        <form id="contact-form" method="post" action="">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-field">
-                                        <input type="text" placeholder="Họ và tên *" id="name" name="name" required="">
-                                    </div>                               
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-field">
-                                        <input type="text" placeholder="Điện thoại *" id="phone_number" name="phone_number" required="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-field">
-                                        <input type="text" placeholder="Chọn dịch vụ *" id="subject" name="subject" required="">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-field">
-                                        <textarea placeholder="Nội dung cần tư vấn" id="message" name="message" required=""></textarea>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </form>
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Đăng ký tư vấn</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                    <button type="button" class="btn btn-primary readon2 upper">ĐĂNG KÝ NGAY</button>
-                    <div class="form-btn submit-btn mt-30">
-                                <button class="readon2 upper" type="submit">ĐĂNG KÝ NGAY</button>
-                            </div>
-                </div>
+                    <div class="modal-body p-0">
+                        <div class="free-course-contact p-4">
+                            <form id="contact-form" method="post" action="">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-field">
+                                            <input type="text" placeholder="Họ và tên *" id="name" name="name" required="">
+                                        </div>                               
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-field">
+                                            <input type="text" placeholder="Điện thoại *" id="phone_number" name="phone_number" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-field">
+                                            <input type="text" placeholder="Chọn dịch vụ *" id="subject" name="subject" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-field">
+                                            <textarea placeholder="Nội dung cần tư vấn" id="message" name="message" required=""></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-btn submit-btn mt-30">
+                                    <button class="readon2 upper" type="submit">ĐĂNG KÝ NGAY</button>
+                                </div>
+                            </form>
+                            <div id="form-messages"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
