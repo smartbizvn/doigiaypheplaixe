@@ -77,4 +77,12 @@ class HomeController extends BaseController
         );
         return view('frontend.search', $data);
     }
+
+    public function contact(Request $req){
+        $data  = array(
+            'title' => getSetting('title'),
+            'meta_description' => getSetting('meta_description'),
+        );  
+        return view('frontend.contact', $data);
+    }
 }
