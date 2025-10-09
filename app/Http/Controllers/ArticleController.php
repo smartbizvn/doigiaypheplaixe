@@ -116,7 +116,7 @@ class ArticleController extends BaseController
 
     private function formData(Entity $entity)
     {
-        $articleCategories = $this->articleCategoryRepository->whereNull('parent_id')->with('children_categories')->get();
+        $articleCategories = $this->articleCategoryRepository->whereNull('parent_id')->where('type_category', 'category')->with('children_categories')->get();
         return [
             'result'             => $entity,
             'article_categories' => $articleCategories,
