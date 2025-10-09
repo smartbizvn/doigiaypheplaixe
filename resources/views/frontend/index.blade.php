@@ -187,7 +187,7 @@
                 <div class="desc fs_20">👉 Dành cho <b class='text-danger fs_30'>250</b> khách hàng đầu tiên! Bạn sẽ được ✂ giảm ngay <b class='text-danger fs_30'>20%</b> phí dịch vụ cho tất cả các loại dịch vụ đổi giấy phép lái xe các hạng A1, A, B, C. <br><p class='mt-2'><b class='text-danger fs_30'>☎ Hotline : 0973 011 550 </b></p></div>
             </div>
             <div class="btn-part wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms" style="visibility: visible; animation-duration: 2000ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                <a class="readon2" href="#">Đăng ký ngay</a>
+                <a class="readon2" href="#" data-toggle="modal" data-target="#registerModal">Đăng ký ngay</a>
             </div>
         </div>
     </div>

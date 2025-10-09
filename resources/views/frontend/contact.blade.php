@@ -15,7 +15,7 @@
     </div>
     <div class="contact-page-section pt-20 pb-20">
         <div class="container">
-            <div class="row rs-contact-box mb-50">
+            <div class="row rs-contact-box mb-30">
                 <div class="col-lg-4 col-md-12-4 lg-pl-0 sm-mb-30 md-mb-30">
                     <div class="address-item">
                         <div class="icon-part">
@@ -50,13 +50,12 @@
             <div class="row align-items-end contact-bg1">
                 <div class="col-lg-4 md-pt-50 lg-pr-0">
                     <div class="contact-image">
-                        <img src="{{ asset('frontend')}}/images/lienhe.png" width="380" alt="Liên hệ dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
+                        <img src="{{ asset('frontend')}}/images/lienhe.png" width="400" alt="Liên hệ dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
                     </div>
                 </div>
                 <div class="col-lg-8 lg-pl-0">
                     <div class="rs-quick-contact new-style">
                         <div class="inner-part mb-35">
-                            <h2 class="title mb-15">Thông tin liên hệ</h2>
                             <p>Bạn cần hỗ trợ các thông tin về đăng ký, cấp đổi các giấy phép lái xe tại TP.HCM, vui lòng điền thông tin bên dưới để được chúng tôi hỗ trợ tốt nhất.</p>
                         </div>
                         <form id="contact-form" method="post" action="mailer.php">
