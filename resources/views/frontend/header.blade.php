@@ -72,7 +72,7 @@
                     </div>
                     <div class="col-lg-2 text-right">
                         <div class="expand-btn-inner">
-                            <a class="apply-btn" href="#">ĐĂNG KÝ TƯ VẤN</a>
+                            <a class="apply-btn" href="#" data-toggle="modal" data-target="#registerModal">ĐĂNG KÝ TƯ VẤN</a>
                         </div>
                     </div>
                 </div>

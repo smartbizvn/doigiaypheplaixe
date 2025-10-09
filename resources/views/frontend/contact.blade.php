@@ -2,16 +2,10 @@
 @section('content')
 <div class="rs-breadcrumbs breadcrumbs-overlay">
     <div class="breadcrumbs-img">
-        <img src="{{ asset('frontend')}}/assets/images/breadcrumbs/5.jpg" alt="Breadcrumbs Image">
+        <img src="{{ asset('frontend')}}/images/breadcum.jpg" alt="">
     </div>
     <div class="breadcrumbs-text white-color padding">
-        <h1 class="page-title white-color">Contact Us</h1>
-        <ul>
-            <li>
-                <a class="active" href="index.html">Home</a>
-            </li>
-            <li>Contact Us</li>
-        </ul>
+        <h1 class="page-title white-color">Liên hệ</h1>
     </div>
 </div>
 <div class="contact-page-section pt-100 pb-100 md-pt-70 md-pb-70">
@@ -64,7 +58,6 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, eius to mod
                             tempor incidi dunt ut dolore.</p>
                     </div>
-                    <div id="form-messages"></div>
                     <form id="contact-form" method="post" action="mailer.php">
                         <div class="row">
                             <div class="col-lg-6 mb-30 col-md-6 col-sm-6">

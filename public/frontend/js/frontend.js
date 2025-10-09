@@ -6,7 +6,7 @@ $(document).ready(function(){
         $(this).removeAttr("class");
         $(this).removeAttr("width");
         $(this).removeAttr("height");
-		$(this).addClass("img-fluid")
+		$(this).addClass("img-responsive");
     });
 
     /*Send contact*/
