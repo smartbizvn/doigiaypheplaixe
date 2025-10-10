@@ -59,7 +59,7 @@ class ArticleRepository extends BaseRepository implements EntityRepositoryInterf
 
     public function lastArticles()
     {
-        $query = $this->query()->where(['active' => true])->orderBy('created_at', 'desc')->limit(6) ->get();
+        $query = $this->query()->where(['active' => true])->orderBy('created_at', 'desc')->limit(4) ->get();
         return $query;
     }
 

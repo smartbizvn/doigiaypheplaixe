@@ -2,97 +2,29 @@
 @section('content')
 <div class="main-content">
     <div class="rs-slider style2">
-            <div class="rs-carousel owl-carousel" data-loop="true" data-items="1" data-margin="0" data-autoplay="false" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="1" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="true" data-ipad-device-dots2="false" data-md-device="1" data-md-device-nav="true" data-md-device-dots="false">
-            <div class="slide-part">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 order-last">
-                            <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 pr-50">
-                            <div class="content">
-                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng A1</h2>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </div>    
-            <div class="slide-part">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 order-last">
-                            <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 pr-80">
-                            <div class="content">
-                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng A</h2>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
+        <div class="rs-breadcrumbs breadcrumbs-overlay">
+            <div class="breadcrumbs-img">
+                <img src="{{ asset('frontend')}}/images/breadcum.jpg">
             </div>
-            <div class="slide-part">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 order-last">
-                            <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
-                            </div>
+            <div class="breadcrumbs-text white-color">
+               <div class="row align-items-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="sec-title mb-26">
+                            <h2 class="sub-title extra-bold">DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM</h2>
+                            <h2 class="title extra-bold">UY TÍN - NHANH CHÓNG - TIẾT KIỆM</h2>
                         </div>
-                        <div class="col-lg-6 pr-80">
-                            <div class="content">
-                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng B số tự động</h2>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-            <div class="slide-part">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 order-last">
-                            <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 pr-80">
-                            <div class="content">
-                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng B số sàn</h2>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-            <div class="slide-part">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 order-last">
-                            <div class="img-part">
-                                <img src="{{ asset('frontend')}}/images/03.png" alt="Dịch vụ đổi giấy phép lái xe nhanh tại TP.HCM">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 pr-80">
-                            <div class="content">
-                                <h2 class="title wow fadeInRight" data-wow-delay="600ms" data-wow-duration="2000ms">Dịch vụ đổi giấy phép lái xe hạng C</h2>
-                            </div>
-                        </div>  
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="rs-about" class="rs-about style6 pt-120 pb-70 md-pt-70 md-pb-70">
+    <div id="rs-about" class="rs-about style6 pt-80 pb-70 md-pt-70 md-pb-70">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 text-center">
                     <div class="sec-title mb-26">
-                        <h1 class="sub-title extra-bold">DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM</h1>
-                        <h2 class="title extra-bold">UY TÍN - NHANH CHÓNG - TIẾT KIỆM</h2>
+                        <h2 class="title text-danger" style="font-size: 24px;line-height: 40px">CẢM ƠN KHÁCH HÀNG ĐÃ ĐỒNG HÀNH VÀ TIN TƯỞNG <br/>CHÚNG TÔI TRONG HƠN 10 NĂM QUA</h2>
                     </div>
                 </div>
             </div>
@@ -239,7 +171,7 @@
                 </div>
                 <div class="testi-item">
                     <div class="author-desc">
-                        <div class="desc">Tôi rất ấn tượng với phong cách làm việc chuyên nghiệp của đội ngũ tại đây. Họ tiếp nhận hồ sơ nhanh, phản hồi kịp thời và luôn nhiệt tình giải đáp mọi thắc mắc của tôi. Không chỉ làm đúng, làm đủ, họ còn làm hơn cả mong đợi. Tôi đã nhận bằng chỉ sau vài ngày, đúng như cam kết ban đầu/div>
+                        <div class="desc">Tôi rất ấn tượng với phong cách làm việc chuyên nghiệp của đội ngũ tại đây. Họ tiếp nhận hồ sơ nhanh, phản hồi kịp thời và luôn nhiệt tình giải đáp mọi thắc mắc của tôi. Không chỉ làm đúng, làm đủ, họ còn làm hơn cả mong đợi. Tôi đã nhận bằng chỉ sau vài ngày, đúng như cam kết ban </div>
                             <div class="author-img">
                                 <img src="{{ asset('frontend')}}/assets/images/testimonial/style8/4.png" alt="">
                             </div>

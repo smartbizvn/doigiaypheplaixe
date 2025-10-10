@@ -35,8 +35,8 @@ class HomeController extends BaseController
         $articles  = $this->articleRepository->getArticleByCategoriesId($categoryWithChildrenIds, 14, true);
         $data  = array(
             'articles' => $articles,
-            'title' => getSetting('title'),
-            'meta_description' => getSetting('meta_description')
+            'title' => getTitle($categoryArticle),
+            'meta_description' => getDesc($categoryArticle)
         );
         return view('frontend.news', $data);
     }

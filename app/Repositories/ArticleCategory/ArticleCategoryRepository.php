@@ -45,6 +45,12 @@ class ArticleCategoryRepository extends BaseRepository implements EntityReposito
         return $query;
     }
 
+    public function lastCategories()
+    {
+        $query = $this->query()->where(['active' => true])->orderBy('created_at', 'desc')->limit(6) ->get();
+        return $query;
+    }
+
     function getCategoryWithChildrenIds($category)
     {  
         if (!$category) {
