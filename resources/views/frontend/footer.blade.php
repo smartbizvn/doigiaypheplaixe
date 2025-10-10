@@ -28,6 +28,7 @@
                             </div>
                         </li>
                     </ul>
+                    
                 </div>
                 @inject('service', 'App\Services\Service')
                 <div class="col-lg-4 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget">

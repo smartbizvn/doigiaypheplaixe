@@ -12,7 +12,7 @@
                         <div class="sec-title mb-26">
                             <h1 class="sub-title extra-bold">DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM</h1>
                             <h2 class="title extra-bold">UY TÍN - NHANH CHÓNG - TIẾT KIỆM</h2>
-                            <h1 class="sub-title extra-bold text-danger">👉 HOTLINE/ZALO : 0973 011 550</h1>
+                            <h1 class="sub-title extra-bold text-danger"  style="font-size: 24px;">👉 HOTLINE/ZALO : 0973 011 550</h1>
                         </div>
                     </div>
                 </div>
@@ -285,7 +285,7 @@
                             <a title='{{ $article->name }}' href="{{ url('chia-se-kien-thuc', $article->url) }}"><img src="{{ viewImage($article->image) }}" alt="{{ $article->name }}" width="411" height="232" /></a>
                             <div class="dates">{{ $article->created_at->format('d/m/Y') }}</div>
                         </div>
-                        <div class="content-part d-flex justify-content-center text-center">
+                        <div class="content-part">
                             <h4 class="title mb-0"><a title='{{ $article->name }}' href="{{ url('chia-se-kien-thuc', $article->url) }}">{{ $article->name }}</a></h4>
                         </div> 
                     </div>

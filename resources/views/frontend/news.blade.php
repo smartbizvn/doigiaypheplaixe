@@ -22,7 +22,7 @@
                                 <div class="dates">{{ $article->created_at->format('d/m/Y') }}</div>
                             </div>
                             <div class="content-part d-flex justify-content-center text-center">
-                                <h4 class="title"><a title="{{ $article->name }}" href="{{ url('chia-se-kien-thuc', $article->url) }}">{{ $article->name }}</a></h4>
+                                <h4 class="title mb-0"><a title="{{ $article->name }}" href="{{ url('chia-se-kien-thuc', $article->url) }}">{{ $article->name }}</a></h4>
                             </div> 
                         </div>
                     </div>

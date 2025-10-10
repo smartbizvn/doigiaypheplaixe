@@ -1251,9 +1251,6 @@ ul.listing-style.modify li:before {
   background: #21a7d0;
   opacity: 1;
 }
-.owl-carousel .owl-item img {
-  width: auto;
-}
 .sec-title .sub-title {
   font-size: 20px;
   line-height: 28px;
@@ -10871,6 +10868,7 @@ body .modal-backdrop {
 .rs-event .event-item .event-short .content-part {
   padding: 25px 30px 15px 30px;
   border-radius: 0 0 5px 5px;
+   min-height: 161px;
 }
 .rs-event .event-item .event-short .content-part .address {
   padding-bottom: 15px;

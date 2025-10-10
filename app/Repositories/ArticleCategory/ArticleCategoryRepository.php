@@ -47,7 +47,7 @@ class ArticleCategoryRepository extends BaseRepository implements EntityReposito
 
     public function lastCategories()
     {
-        $query = $this->query()->where(['active' => true])->orderBy('created_at', 'desc')->limit(6) ->get();
+        $query = $this->query()->where(['active' => true, 'type_category' => 'page'])->orderBy('created_at', 'desc')->limit(6) ->get();
         return $query;
     }
 
