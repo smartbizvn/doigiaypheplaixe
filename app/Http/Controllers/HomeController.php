@@ -30,13 +30,15 @@ class HomeController extends BaseController
     }
 
     public function articles(Request $req){
+        $categoryArticle  = $this->articleCategoryRepository->articleCategory($req->segment(1));
+        $categoryWithChildrenIds = $this->articleCategoryRepository->getCategoryWithChildrenIds($categoryArticle);
         $articles  = $this->articleRepository->getArticleByCategoriesId($categoryWithChildrenIds, 14, true);
         $data  = array(
             'articles' => $articles,
             'title' => getSetting('title'),
             'meta_description' => getSetting('meta_description')
         );
-        return view('frontend.list_new', $data);
+        return view('frontend.news', $data);
     }
 
     public function article(Request $req){
@@ -49,10 +51,11 @@ class HomeController extends BaseController
         $data  = array(
             'detail_article' => $detailArticle,
             'relative_articles' => $relativeArticles,
+            'category_article' => $categoryArticle,
             'title' => getTitle($detailArticle),
             'meta_description' => getDesc($detailArticle)
         );
-        return view('frontend.detail', $data);
+        return view('frontend.news_detail', $data);
     }
 
     public function page(Request $req){
