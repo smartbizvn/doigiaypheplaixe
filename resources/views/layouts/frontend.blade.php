@@ -76,11 +76,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-btn submit-btn mt-30">
-                                    <button class="readon2 upper" type="submit">ĐĂNG KÝ NGAY</button>
+                                 <div id="form-messages"></div>
+                                <div class="form-group mt-3">
+                                    <input class="btn-send mb-0" type="submit" value="ĐĂNG KÝ NGAY">
                                 </div>
                             </form>
-                            <div id="form-messages"></div>
                         </div>
                     </div>
                 </div>

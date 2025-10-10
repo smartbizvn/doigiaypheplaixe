@@ -1,9 +1,5 @@
 @extends('layouts.frontend')
 @section('content')
-
-
-@extends('layouts.frontend')
-@section('content')
 <div class="main-content">
     <div class="rs-breadcrumbs breadcrumbs-overlay">
         <div class="breadcrumbs-img">
@@ -66,7 +62,9 @@
                                 <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
                                     <input class="from-control" type="text" id="phone" name="phone" placeholder="Số điện thoại" required="">
                                 </div>
-                        
+                                 <div class="col-lg-12 mb-30 col-md-12 col-sm-12">
+                                    <input class="from-control" type="text" id="phone" name="phone" placeholder="Dịch vụ" required="">
+                                </div>
                                 <div class="col-lg-12 mb-30">
                                     <textarea class="from-control" id="message" name="message" placeholder="Nội dung" required=""></textarea>
                                 </div>

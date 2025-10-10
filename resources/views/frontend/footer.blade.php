@@ -2,10 +2,9 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
                     <h3 class="widget-title">THÔNG TIN LIÊN HỆ</h3>
                     <ul class="address-widget">
-                        
                         <li>
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <div class="desc">
@@ -30,31 +29,22 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget">
+                @inject('service', 'App\Services\Service')
+                <div class="col-lg-4 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget">
                     <h3 class="widget-title">DỊCH VỤ NỔI BẬT</h3>
                     <ul class="site-map">
-                        <li><a href="#">Đổi giấy phép lái xe hạng A1</a></li>
-                        <li><a href="#">Đổi giấy phép lái xe hạng A</a></li>
-                        <li><a href="#">Đổi giấy phép lái xe hạng B</a></li>
-                        <li><a href="#">Đổi giấy phép lái xe hạng C</a></li>
+                        @foreach ($service->getPages() as $page)
+                            <li><a title="{{ $page->name }}" href="{{ url($page->slug) }}">{{ $page->name }}</a></li>
+                        @endforeach
                     </ul>
                 </div>
                 
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
                     <h3 class="widget-title">CHIA SẺ KIẾN THỨC</h3>
                     <ul class="site-map">
-                        <li><a href="#">Đổi giấy phép lái xe hạng A1</a></li>
-                        <li><a href="#">Đổi giấy phép lái xe hạng A</a></li>
-                        <li><a href="#">Đổi giấy phép lái xe hạng B</a></li>
-                        <li><a href="#">Đổi giấy phép lái xe hạng C</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget">
-                    <h3 class="widget-title">THỜI GIAN LÀM VIỆC</h3>
-                    <ul class="site-map">
-                        <li><a href="#">Thứ 2 - Thứ 6: 8:00 - 17:00</a></li>
-                        <li><a href="#">Thứ 7: 8:00 - 12:00</a></li>
-                        <li><a href="#">Chủ nhật: Nghỉ</a></li>
+                         @foreach ($service->getArticles() as $article)
+                            <li><a title="{{ $article->name }}" href="{{ url('chia-se-kien-thuc/'.$article->slug) }}">{{ $article->name }}</a></li>
+                        @endforeach
                     </ul>
                 </div>
             </div>

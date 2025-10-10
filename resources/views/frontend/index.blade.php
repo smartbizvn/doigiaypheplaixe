@@ -10,8 +10,9 @@
                <div class="row align-items-center">
                     <div class="col-lg-12 text-center">
                         <div class="sec-title mb-26">
-                            <h2 class="sub-title extra-bold">DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM</h2>
+                            <h1 class="sub-title extra-bold">DỊCH VỤ ĐỔI GIẤY PHÉP LÁI XE TẠI TP.HCM</h1>
                             <h2 class="title extra-bold">UY TÍN - NHANH CHÓNG - TIẾT KIỆM</h2>
+                            <h1 class="sub-title extra-bold text-danger">👉 HOTLINE/ZALO : 0973 011 550</h1>
                         </div>
                     </div>
                 </div>
@@ -24,7 +25,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 text-center">
                     <div class="sec-title mb-26">
-                        <h2 class="title text-danger" style="font-size: 24px;line-height: 40px">CẢM ƠN KHÁCH HÀNG ĐÃ ĐỒNG HÀNH VÀ TIN TƯỞNG <br/>CHÚNG TÔI TRONG HƠN 10 NĂM QUA</h2>
+                        <h2 class="title" style="font-size: 24px;line-height: 40px">CẢM ƠN KHÁCH HÀNG ĐÃ ĐỒNG HÀNH VÀ TIN TƯỞNG <br/>CHÚNG TÔI TRONG HƠN 10 NĂM QUA</h2>
                     </div>
                 </div>
             </div>
