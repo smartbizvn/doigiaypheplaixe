@@ -7,6 +7,7 @@ class ContactFilter extends BaseFilter
 {
     protected array $filterable = [
         'name',
+        'phone',
         'active'
     ];
 }

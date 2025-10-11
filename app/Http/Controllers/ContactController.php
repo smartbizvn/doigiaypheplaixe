@@ -82,32 +82,14 @@ class ContactController extends BaseController
 
     protected function getDataRequest($request, $entity = null)
     {
-        $featureImage = self::uploadFile($request->file('feature_image'), 'feature_images');
-        $image =  $featureImage['link_file'] ?? null;
-
         $data = [
             'name'          => $request->name,
-            'slug'          => Str::slug($request->name),
-            'url'           => Str::slug($request->name),
-            'desc'          => $request->desc,
+            'phone'         => $request->phone,
             'content'       => $request->content,
             'active'        => $request->active ?? false,
             'feature'       => $request->feature ?? false,
-            'order'         => $request->order ?? 0,
-            'meta_title'    => $request->meta_title,
-            'meta_keyword'  => $request->meta_keyword,
-            'meta_desc'     => $request->meta_desc,
+            'order'         => $request->order ?? 0
         ];
-
-        if ($image !== null) {
-            $data['image'] = $image;
-            if ($entity && $entity->image) {
-                deleteFile($entity->image);
-            }
-        } elseif ($entity) {
-            $data['image'] = $entity->image;
-        }
-
         return $data;
     }
 

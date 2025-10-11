@@ -138,7 +138,7 @@
                     <div class="author-desc">                                
                         <div class="desc">Không chỉ làm việc chuyên nghiệp mà còn hỗ trợ rất tận tình. Tôi đi làm giờ hành chính nên rất khó sắp xếp thời gian, nhưng trung tâm vẫn tạo điều kiện tối đa. Mọi thứ đều rõ ràng, nhanh gọn và đúng quy trình. Tôi thực sự hài lòng và đánh giá đây là dịch vụ đổi GPLX tốt nhất tôi từng trải nghiệm</div>
                         <div class="author-img">
-                            <img src="{{ asset('frontend')}}/assets/images/testimonial/style8/1.png" alt="">
+                            <img src="{{ asset('frontend')}}/images/user.png" alt="">
                         </div>
                     </div>
                     <div class="author-part">
@@ -150,7 +150,7 @@
                     <div class="author-desc">
                     <div class="desc">Tôi đánh giá cao sự uy tín của trung tâm. Ban đầu tôi còn nghi ngờ vì sợ bị ‘làm khó’ hoặc kéo dài thời gian, nhưng họ làm đúng như những gì đã cam kết. Thủ tục đơn giản, xử lý nhanh, không hề có chuyện 'bôi trơn' hay phải lo lót. Đúng là đáng tin cậy!</div>
                         <div class="author-img">
-                            <img src="{{ asset('frontend')}}/assets/images/testimonial/style8/2.png" alt="">
+                            <img src="{{ asset('frontend')}}/images/user.png" alt="">
                         </div>
                     </div>
                     <div class="author-part">
@@ -162,7 +162,7 @@
                     <div class="author-desc">
                         <div class="desc">Chất lượng dịch vụ ở đây thật sự khiến tôi hài lòng. Hồ sơ được kiểm tra kỹ, thông tin rõ ràng, không vòng vo hay hứa suông như một số nơi khác tôi từng hỏi. Đây là nơi hiếm hoi mà tôi cảm nhận được sự chất lượng trong từng bước xử lý hồ sơ, từ khâu tư vấn đến khi nhận kết quả</div>
                         <div class="author-img">
-                            <img src="{{ asset('frontend')}}/assets/images/testimonial/style8/3.png" alt="">
+                            <img src="{{ asset('frontend')}}/images/user.png" alt="">
                         </div>
                     </div>
                     <div class="author-part">
@@ -174,7 +174,7 @@
                     <div class="author-desc">
                         <div class="desc">Tôi rất ấn tượng với phong cách làm việc chuyên nghiệp của đội ngũ tại đây. Họ tiếp nhận hồ sơ nhanh, phản hồi kịp thời và luôn nhiệt tình giải đáp mọi thắc mắc của tôi. Không chỉ làm đúng, làm đủ, họ còn làm hơn cả mong đợi. Tôi đã nhận bằng chỉ sau vài ngày, đúng như cam kết ban </div>
                             <div class="author-img">
-                                <img src="{{ asset('frontend')}}/assets/images/testimonial/style8/4.png" alt="">
+                                <img src="{{ asset('frontend')}}/images/user.png" alt="">
                             </div>
                         </div>
                         <div class="author-part">
