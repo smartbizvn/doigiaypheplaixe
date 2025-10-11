@@ -54,7 +54,7 @@
                 @can('contacts_access')
                 <li class="nav-item">
                     <a class="nav-link menu-link {{ request()->is('admin/contacts*') ? 'active' : '' }}" href="{{ route("admin.contacts.index") }}">
-                        <i class="bx bx-list-ul"></i> <span data-key="t-widgets">Quản lý Liên hệ</span>
+                        <i class="ri-contacts-book-2-line"></i><span data-key="t-widgets">Quản lý Liên hệ</span>
                     </a>
                 </li>
                 @endcan

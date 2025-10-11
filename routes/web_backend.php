@@ -7,6 +7,7 @@ use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\InfoDocumentController;
 use App\Http\Controllers\MenuController;
+use App\Http\Controllers\ContactController;
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['CheckAuth']], function () {
 
@@ -43,6 +44,15 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['CheckAuth
     Route::resource('menus', MenuController::class)->parameters(['menus' => 'entity']);
     Route::group(['prefix' => 'menus', 'as' => 'menus.'], function () {
         Route::controller(MenuController::class)->group(function () {
+            Route::post('delete', 'delete')->name('delete');
+            Route::post('changeStatus', 'changeStatus')->name('changeStatus');
+        });
+    });
+
+    # Contacts
+    Route::resource('contacts', ContactController::class)->parameters(['contacts' => 'entity']);
+    Route::group(['prefix' => 'contacts', 'as' => 'contacts.'], function () {
+        Route::controller(ContactController::class)->group(function () {
             Route::post('delete', 'delete')->name('delete');
             Route::post('changeStatus', 'changeStatus')->name('changeStatus');
         });

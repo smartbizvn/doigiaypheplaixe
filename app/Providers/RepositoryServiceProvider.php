@@ -24,6 +24,10 @@ use App\Repositories\Banner\BannerRepositoryInterface;
 # Menu
 use App\Repositories\Menu\MenuRepository;
 use App\Repositories\Menu\MenuRepositoryInterface;
+# Contact
+use App\Repositories\Contact\ContactRepository;
+use App\Repositories\Contact\ContactRepositoryInterface;
+
 class RepositoryServiceProvider extends ServiceProvider
 {
     /**
@@ -46,6 +50,8 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(BannerRepositoryInterface::class, BannerRepository::class);
         # Menu
         $this->app->bind(MenuRepositoryInterface::class, MenuRepository::class);
+        # Contact
+        $this->app->bind(ContactRepositoryInterface::class, ContactRepository::class);
     }
 
     /**
