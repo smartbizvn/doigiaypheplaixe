@@ -1,5 +1,6 @@
-
+showHideLoading();
 $(document).ready(function(){
+    showHideLoading();
     /* Image responsive */ 
     $(".wap_content img").each(function () {
 		$(this).removeAttr("style");
@@ -86,3 +87,49 @@ $(document).ready(function(){
         });
     }
 });
+
+function callAjax(params, callback) {
+    $.ajax({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        type : params.method ?? "POST",
+        url : params.url,
+        data : params.data,
+        dataType: params.dataType ?? "json",
+        beforeSend: function () {
+            showHideLoading();
+        },
+        success: function (resp) {
+            showHideLoading();
+            callback(resp);
+        },
+        error: function (error) {
+            showHideLoading();
+            showAlert('error', 'Thực hiện thao tác không thành công');
+        },
+    });
+}
+
+function showAlert(type_icon = "info", msg_text = "No messages") {
+    Swal.fire({
+        title: 'Thông báo',
+        text: msg_text,
+        icon: type_icon, // info, warning, error, success
+        showCloseButton: true,
+        showConfirmButton: true,
+        showCancelButton: false,
+        allowOutsideClick: false,
+        confirmButtonText: "OK",
+        confirmButtonClass: "btn btn-confirm",
+    }).then(() => {
+        if (type_icon =='success'){
+            window.location.reload();
+        }
+    });
+    return false;
+}
+
+function showHideLoading() {
+    $("#loading").fadeToggle(200);
+}

@@ -31,6 +31,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('frontend')}}/assets/css/rs-spacing.css">
         <link rel="stylesheet" type="text/css" href="{{ asset('frontend')}}/assets/style.css">
         <link rel="stylesheet" type="text/css" href="{{ asset('frontend')}}/assets/css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('libs/select2/css/select2.min.css') }}" >
         <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/style.css')}}">
         @stack('extend_style')
         {!! getSetting('bottom_head') !!}
@@ -92,8 +93,8 @@
                 </div>
             </div>
         </div>
-
         @include('frontend.footer')
+        @include('common.loading')
         @yield('extend_html')
         @stack('extend_script')
         <!-- modernizr js -->
@@ -116,6 +117,7 @@
         <script src="{{ asset('frontend')}}/assets/js/jquery.mb.YTPlayer.min.js"></script>
         <script src="{{ asset('frontend')}}/assets/js/jquery.magnific-popup.min.js"></script>      
         <script src="{{ asset('frontend')}}/assets/js/plugins.js"></script>
+        <script src="{{asset('libs/sweetalert2/sweetalert2.all.min.js') }}"></script>
         <script src="{{ asset('frontend')}}/assets/js/main.js"></script>
         <script src="{{ asset('frontend/js/frontend.js')}}"></script>
         {!! getSetting('bottom_body') !!}
