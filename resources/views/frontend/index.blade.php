@@ -239,18 +239,18 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-field">
-                                        <input type="text" placeholder="Họ và tên *" id="name" name="name">
+                                        <input type="text" placeholder="Họ và tên *" id="fullname">
                                     </div>                               
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-field">
-                                        <input type="text" placeholder="Điện thoại *" id="phone_number" name="phone_number">
+                                        <input type="text" placeholder="Điện thoại *" id="phone">
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-field">
                                         @inject('service', 'App\Services\Service')
-                                        <select class="d-block">
+                                        <select class="d-block" id='service'>
                                             <option value="">Chọn dịch vụ *</option>
                                             @foreach($service->getPages() as $item)
                                                 <option value="{{ $item->name }}">{{ $item->name }}</option>
@@ -260,13 +260,13 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-field">
-                                        <textarea placeholder="Nội dung cần tư vấn" id="message" name="message"></textarea>
+                                        <textarea placeholder="Nội dung cần tư vấn" id="content"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <p class='text-danger mt-3'>(*) Thông tin bắt buộc phải nhập</p>
                             <div class="form-btn submit-btn mt-30">
-                                <button class="readon2 upper" type="button" style="width:100%">ĐĂNG KÝ NGAY</button>
+                                <button class="readon2 upper btn_send_contact" type="button" style="width:100%">ĐĂNG KÝ NGAY</button>
                             </div>
                         </form>
                     </div>

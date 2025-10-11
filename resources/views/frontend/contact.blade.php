@@ -72,15 +72,15 @@
                         <form id="contact-form" method="post">
                             <div class="row">
                                 <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                                    <input class="from-control" type="text" id="name" name="name" placeholder="Họ và tên *">
+                                    <input class="from-control" type="text" id="fullname" placeholder="Họ và tên *">
                                 </div>   
                                 <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                                    <input class="from-control" type="text" id="phone" name="phone" placeholder="Số điện thoại *">
+                                    <input class="from-control" type="text" id="phone" placeholder="Số điện thoại *">
                                 </div>
                                  <div class="col-lg-12 col-md-12 col-sm-12">
                                      <div class="form-group">
                                         @inject('service', 'App\Services\Service')
-                                        <select class="d-block">
+                                        <select id='service' class="d-block">
                                             <option value="">Chọn dịch vụ *</option>
                                             @foreach($service->getPages() as $item)
                                                 <option value="{{ $item->name }}">{{ $item->name }}</option>
@@ -89,12 +89,12 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea class="from-control" id="message" name="message" placeholder="Nội dung"></textarea>
+                                    <textarea class="from-control" id="content" placeholder="Nội dung"></textarea>
                                 </div>
                             </div>
-                             <span class='text-danger'>(*) Thông tin bắt buộc phải nhập</span>
+                            <span class='text-danger'>(*) Thông tin bắt buộc phải nhập</span>
                             <div class="form-group mb-0 mt-30">
-                                <input class="btn-send" type="button" value="GỬI LIÊN HỆ">
+                                <input class="btn-send btn_send_contact" type="button" value="GỬI LIÊN HỆ">
                             </div>
                         </form>
                     </div> 
