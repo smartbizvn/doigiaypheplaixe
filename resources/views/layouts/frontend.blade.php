@@ -57,18 +57,18 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-field">
-                                            <input type="text" placeholder="Họ và tên *" id="name" name="name" required="">
+                                            <input type="text" placeholder="Họ và tên *" id="name" name="name">
                                         </div>                               
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-field">
-                                            <input type="text" placeholder="Điện thoại *" id="phone_number" name="phone_number" required="">
+                                            <input type="text" placeholder="Điện thoại *" id="phone_number" name="phone_number">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-field">
                                             @inject('service', 'App\Services\Service')
-                                            <select class="d-block" required="">
+                                            <select class="d-block">
                                                 <option value="">Chọn dịch vụ *</option>
                                                 @foreach($service->getPages() as $item)
                                                     <option value="{{ $item->name }}">{{ $item->name }}</option>
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-field">
-                                            <textarea placeholder="Nội dung cần tư vấn" id="message" name="message" required=""></textarea>
+                                            <textarea placeholder="Nội dung cần tư vấn" id="message" name="message"></textarea>
                                         </div>
                                     </div>
                                 </div>

@@ -72,15 +72,15 @@
                         <form id="contact-form" method="post" action="">
                             <div class="row">
                                 <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                                    <input class="from-control" type="text" id="name" name="name" placeholder="Họ và tên *" required="">
+                                    <input class="from-control" type="text" id="name" name="name" placeholder="Họ và tên *">
                                 </div>   
                                 <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                                    <input class="from-control" type="text" id="phone" name="phone" placeholder="Số điện thoại *" required="">
+                                    <input class="from-control" type="text" id="phone" name="phone" placeholder="Số điện thoại *">
                                 </div>
                                  <div class="col-lg-12 col-md-12 col-sm-12">
                                      <div class="form-group">
                                         @inject('service', 'App\Services\Service')
-                                        <select class="d-block" required="">
+                                        <select class="d-block">
                                             <option value="">Chọn dịch vụ *</option>
                                             @foreach($service->getPages() as $item)
                                                 <option value="{{ $item->name }}">{{ $item->name }}</option>
@@ -89,7 +89,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12 mb-30">
-                                    <textarea class="from-control" id="message" name="message" placeholder="Nội dung" required=""></textarea>
+                                    <textarea class="from-control" id="message" name="message" placeholder="Nội dung"></textarea>
                                 </div>
                             </div>
                             <div class="form-group mb-0">
