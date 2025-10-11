@@ -82,6 +82,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <p class='text-danger mt-3'>(*) Thông tin bắt buộc phải nhập</p>
                                 <div class="form-btn submit-btn mt-30">
                                     <button class="readon2 upper" type="button" style="width:100%">ĐĂNG KÝ NGAY</button>
                                 </div>

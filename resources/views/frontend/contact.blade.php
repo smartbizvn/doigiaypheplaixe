@@ -88,11 +88,12 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-12 mb-30">
+                                <div class="col-lg-12">
                                     <textarea class="from-control" id="message" name="message" placeholder="Nội dung"></textarea>
                                 </div>
                             </div>
-                            <div class="form-group mb-0">
+                             <span class='text-danger'>(*) Thông tin bắt buộc phải nhập</span>
+                            <div class="form-group mb-0 mt-30">
                                 <input class="btn-send" type="button" value="GỬI LIÊN HỆ">
                             </div>
                         </form>

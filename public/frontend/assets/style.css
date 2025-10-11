@@ -3917,7 +3917,7 @@ body .search-modal .close:hover {
   opacity: 1 !important;
 }
 body .modal-backdrop {
-  opacity: 0.95 !important;
+  opacity: 0.75 !important;
 }
 /*------------------------------------
     04. Sticky Menu CSS
