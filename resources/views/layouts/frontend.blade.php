@@ -67,7 +67,13 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-field">
-                                            <input type="text" placeholder="Chọn dịch vụ *" id="subject" name="subject" required="">
+                                            @inject('service', 'App\Services\Service')
+                                            <select class="d-block" required="">
+                                                <option value="">Chọn dịch vụ *</option>
+                                                @foreach($service->getPages() as $item)
+                                                    <option value="{{ $item->name }}">{{ $item->name }}</option>
+                                                @endforeach
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -76,9 +82,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                 <div id="form-messages"></div>
-                                <div class="form-group mt-3">
-                                    <input class="btn-send mb-0" type="submit" value="ĐĂNG KÝ NGAY">
+                                <div class="form-btn submit-btn mt-30">
+                                    <button class="readon2 upper" type="submit" style="width:100%">ĐĂNG KÝ NGAY</button>
                                 </div>
                             </form>
                         </div>

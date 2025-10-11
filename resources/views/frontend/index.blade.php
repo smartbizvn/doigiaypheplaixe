@@ -129,9 +129,9 @@
         <div class="container">
             <div class="sec-title3 text-center">
                 <div class="sub-title uppercase mb-10">
-                    <img class='icon_title' src="{{ asset('frontend')}}/images/icon.png"> Đánh giá từ học viên
+                    <img class='icon_title' src="{{ asset('frontend')}}/images/icon.png"> Đánh giá từ khách hàng
                 </div>
-                <h2 class="title mb-30">Ý kiến học viên của chúng tôi</h2>
+                <h2 class="title mb-30">Ý kiến khách hàng</h2>
             </div>
             <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-autoplay-timeout="7000" data-smart-speed="2000" data-dots="true" data-nav="false" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
                 <div class="testi-item">
@@ -249,7 +249,13 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-field">
-                                        <input type="text" placeholder="Chọn dịch vụ *" id="subject" name="subject" required="">
+                                        @inject('service', 'App\Services\Service')
+                                        <select class="d-block" required="">
+                                            <option value="">Chọn dịch vụ *</option>
+                                            @foreach($service->getPages() as $item)
+                                                <option value="{{ $item->name }}">{{ $item->name }}</option>
+                                            @endforeach
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
@@ -259,7 +265,7 @@
                                 </div>
                             </div>
                             <div class="form-btn submit-btn mt-30">
-                                <button class="readon2 upper" type="submit">ĐĂNG KÝ NGAY</button>
+                                <button class="readon2 upper" type="submit" style="width:100%">ĐĂNG KÝ NGAY</button>
                             </div>
                         </form>
                     </div>

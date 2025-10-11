@@ -2,9 +2,13 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-widget mb-40">
                     <h3 class="widget-title">THÔNG TIN LIÊN HỆ</h3>
                     <ul class="address-widget">
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <div class="desc">{{ getSetting('address') }}</div>
+                        </li>
                         <li>
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <div class="desc">
@@ -18,20 +22,16 @@
                             </div>
                         </li>
                         <li>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <div class="desc">{{ getSetting('address') }}</div>
-                        </li>
-                        <li>
                             <i class="fa fa-facebook-official" aria-hidden="true"></i>
                             <div class="desc">
-                                <a href="{{ getSetting('fanpage') }}">Đổi giấy phép lái xe TP.HCM</a>
+                                <a target="_blank" href="{{ getSetting('fanpage') }}">Đổi giấy phép lái xe TP.HCM</a>
                             </div>
                         </li>
                     </ul>
                     
                 </div>
                 @inject('service', 'App\Services\Service')
-                <div class="col-lg-4 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget">
+                <div class="col-lg-4 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget mb-40">
                     <h3 class="widget-title">DỊCH VỤ NỔI BẬT</h3>
                     <ul class="site-map">
                         @foreach ($service->getPages() as $page)
