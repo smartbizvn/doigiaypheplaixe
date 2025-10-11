@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-lg-4 md-mb-20">
                     <div class="copyright text-center md-text-left">
-                        <p>2025 &copy; Phát triển bởi <a style="color: #21a7d0" href="https://smartbiz.com.vn"> SmartBiz.com.vn</a></p>
+                        <p>2025 &copy; Phát triển bởi <a target="_blank" style="color: #21a7d0" href="https://smartbiz.com.vn"> SmartBiz.com.vn</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-right md-text-left">

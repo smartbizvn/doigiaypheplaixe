@@ -235,7 +235,7 @@
                     <div class="free-course-contact">
                         <span class="mb-30">Đăng ký tư vấn</span>
                         <div id="form-messages"></div>
-                        <form id="contact-form" method="post" action="mailer.php">
+                        <form id="contact-form" method="post">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-field">
@@ -265,7 +265,7 @@
                                 </div>
                             </div>
                             <div class="form-btn submit-btn mt-30">
-                                <button class="readon2 upper" type="submit" style="width:100%">ĐĂNG KÝ NGAY</button>
+                                <button class="readon2 upper" type="button" style="width:100%">ĐĂNG KÝ NGAY</button>
                             </div>
                         </form>
                     </div>

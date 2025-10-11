@@ -125,23 +125,14 @@ class Helper{
         $modules['menus']['actions'][] = ['slug' => 'change_status', 'name' => $change_status_label];
         $modules['menus']['actions'][] = ['slug' => 'show', 'name' => $view_label];
 
-        $modules['documents']['name'] = 'Văn bản';
-        $modules['documents']['active'] = true;
-        $modules['documents']['actions'][] = ['slug' => 'access', 'name' => $list_label];
-        $modules['documents']['actions'][] = ['slug' => 'create', 'name' => $create_label];
-        $modules['documents']['actions'][] = ['slug' => 'edit', 'name' => $edit_label];
-        $modules['documents']['actions'][] = ['slug' => 'delete', 'name' => $delete_label];
-        $modules['documents']['actions'][] = ['slug' => 'change_status', 'name' => $change_status_label];
-        $modules['documents']['actions'][] = ['slug' => 'show', 'name' => $view_label];
-
-        $modules['info_documents']['name'] = 'Thông tin Văn bản';
-        $modules['info_documents']['active'] = true;
-        $modules['info_documents']['actions'][] = ['slug' => 'access', 'name' => $list_label];
-        $modules['info_documents']['actions'][] = ['slug' => 'create', 'name' => $create_label];
-        $modules['info_documents']['actions'][] = ['slug' => 'edit', 'name' => $edit_label];
-        $modules['info_documents']['actions'][] = ['slug' => 'delete', 'name' => $delete_label];
-        $modules['info_documents']['actions'][] = ['slug' => 'change_status', 'name' => $change_status_label];
-        $modules['info_documents']['actions'][] = ['slug' => 'show', 'name' => $view_label];
+        $modules['contacts']['name'] = 'Liên hệ';
+        $modules['contacts']['active'] = true;
+        $modules['contacts']['actions'][] = ['slug' => 'access', 'name' => $list_label];
+        $modules['contacts']['actions'][] = ['slug' => 'create', 'name' => $create_label];
+        $modules['contacts']['actions'][] = ['slug' => 'edit', 'name' => $edit_label];
+        $modules['contacts']['actions'][] = ['slug' => 'delete', 'name' => $delete_label];
+        $modules['contacts']['actions'][] = ['slug' => 'change_status', 'name' => $change_status_label];
+        $modules['contacts']['actions'][] = ['slug' => 'show', 'name' => $view_label];
 
         $modules['settings']['name'] = 'Cài đặt';
         $modules['settings']['actions'][] = ['slug' => 'access', 'name' => $list_label];

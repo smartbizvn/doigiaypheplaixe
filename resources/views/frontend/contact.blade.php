@@ -69,7 +69,7 @@
                         <div class="inner-part mb-35">
                             <p>Bạn cần hỗ trợ các thông tin về đăng ký, cấp đổi các giấy phép lái xe tại TP.HCM, vui lòng điền thông tin bên dưới để được chúng tôi hỗ trợ tốt nhất.</p>
                         </div>
-                        <form id="contact-form" method="post" action="">
+                        <form id="contact-form" method="post">
                             <div class="row">
                                 <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
                                     <input class="from-control" type="text" id="name" name="name" placeholder="Họ và tên *">
@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                             <div class="form-group mb-0">
-                                <input class="btn-send" type="submit" value="GỬI LIÊN HỆ">
+                                <input class="btn-send" type="button" value="GỬI LIÊN HỆ">
                             </div>
                         </form>
                     </div> 
