@@ -7,7 +7,7 @@
                 </div>
                 <div class="card-body p-3 p-sm-4">
                     <div class="row mb-3">
-                        <label class="col-lg-2 col-form-label">Tên <span class="text-danger">*</span></label>
+                        <label class="col-lg-2 col-form-label">Họ và tên <span class="text-danger">*</span></label>
                         <div class="col-lg-9">
                             <input type="text" class="form-control @error('name') is-invalid @enderror"
                                 value="{{ old('name', $result->name ?? '') }}"
@@ -19,11 +19,14 @@
                     </div>
 
                     <div class="row mb-3">
-                        <label class="col-lg-2 col-form-label">Liên kết</label>
+                        <label class="col-lg-2 col-form-label">Điện thoại <span class="text-danger">*</span></label>
                         <div class="col-lg-9">
-                            <input type="text" class="form-control"
-                                value="{{ old('link', $result->link ?? '') }}"
-                                name="link" placeholder="Liên kết" maxlength="250">
+                            <input type="text" class="form-control @error('phone') is-invalid @enderror"
+                                value="{{ old('phone', $result->phone ?? '') }}"
+                                name="phone" placeholder="Điện thoại" maxlength="250">
+                                @error('phone')
+                                    <div class="invalid-feedback">{{ $message }}</div>
+                                @enderror
                         </div>
                     </div>
 

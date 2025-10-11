@@ -22,9 +22,9 @@
                                         </div>
                                     </th>
                                     <th class="text-center" width="60">STT</th>
-                                    <th class="text-center" width="150">Hình ảnh</th>
-                                    <th class="text-left sortable" width="300">Tên liên hệ</th>
-                                    <th class="text-left">Mô tả</th>
+                                    <th class="text-left sortable" width="300">Họ và tên</th>
+                                    <th class="text-left sortable" width="300">Điện thoại</th>
+                                    <th class="text-left sortable">Nội dung liên hệ</th>
                                     {{-- Cột chung --}}
                                     @include('backend.common.table_column_common', ['type_column' => 'head'])
                                 </tr>
@@ -42,11 +42,6 @@
                                                 <span class="fw-medium link-primary">
                                                     {{ $index+ 1 }}
                                                 </span>
-                                            </td>
-                                            <td class="text-center">
-                                                 <a title='Sửa' href="{{ route('admin.'.$module.'.edit', $result->id) }}">
-                                                    <img src="{{ viewImage($result->image)}}" width="150" height="90">
-                                                </a>
                                             </td>
                                             <td>
                                                 <a title='Sửa' href="{{ route('admin.'.$module.'.edit', $result->id) }}">
