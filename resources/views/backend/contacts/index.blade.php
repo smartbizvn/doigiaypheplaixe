@@ -49,7 +49,12 @@
                                                 </a>
                                             </td>
                                             <td>
-                                                {{ cutText($result->desc ?? "") }}
+                                                <a title='Sửa' href="{{ route('admin.'.$module.'.edit', $result->id) }}">
+                                                    {{ cutText($result->phone ?? "") }}
+                                                </a>
+                                            </td>
+                                            <td>
+                                                {{ cutText($result->content ?? "") }}
                                             </td>
                                             {{-- Cột chung --}}
                                             @include('backend.common.table_column_common', ['type_column' => 'body'])

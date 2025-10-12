@@ -32,9 +32,9 @@
 
 
                     <div class="row mb-3">
-                        <label class="col-lg-2 col-form-label">Mô tả</label>
+                        <label class="col-lg-2 col-form-label">Nội dung</label>
                         <div class="col-lg-9">
-                            <textarea class="form-control" name="desc" rows="4" maxlength="250" placeholder="Mô tả">{{ old('desc', $result->desc ?? '') }}</textarea>
+                            <textarea class="form-control" name="content" rows="4" maxlength="250" placeholder="Nội dung">{{ old('content', $result->content ?? '') }}</textarea>
                         </div>
                     </div>
 

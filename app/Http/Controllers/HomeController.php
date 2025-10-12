@@ -6,15 +6,18 @@ use Illuminate\Http\Request;
 
 use App\Repositories\ArticleCategory\ArticleCategoryRepositoryInterface;
 use App\Repositories\Article\ArticleRepositoryInterface;
+use App\Repositories\Contact\ContactRepositoryInterface;
 
 class HomeController extends BaseController
 {
     public function __construct(
         ArticleRepositoryInterface $articleRepository, 
-        ArticleCategoryRepositoryInterface $articleCategoryRepository
+        ArticleCategoryRepositoryInterface $articleCategoryRepository,
+        ContactRepositoryInterface $contactRepository
     ){
         $this->articleRepository = $articleRepository;
         $this->articleCategoryRepository = $articleCategoryRepository;
+        $this->contactRepository = $contactRepository;
     }
 
     public function index(Request $request){
@@ -87,5 +90,20 @@ class HomeController extends BaseController
             'meta_description' => getSetting('meta_description'),
         );  
         return view('frontend.contact', $data);
+    }
+
+    public function saveContact(Request $req){
+        $data = [
+            'type'      => $req->type,
+            'name'      => $req->name,
+            'phone'     => $req->phone,
+            'content'   => $req->content,
+            'data_json' => json_encode(['service' => $req->service]),
+       ];
+        $contact = $this->contactRepository->create($data);
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Liên hệ đã được gửi thành công!',
+        ]);
     }
 }

@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('phone', 255);
             $table->text('address')->nullable();
             $table->longText('content')->nullable();
+            $table->longText('data_json')->nullable();
 
             $table->unsignedBigInteger('order')->default(999);
             $table->boolean('active')->default(true);

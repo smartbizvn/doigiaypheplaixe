@@ -87,7 +87,6 @@ class ContactController extends BaseController
             'phone'         => $request->phone,
             'content'       => $request->content,
             'active'        => $request->active ?? false,
-            'feature'       => $request->feature ?? false,
             'order'         => $request->order ?? 0
         ];
         return $data;

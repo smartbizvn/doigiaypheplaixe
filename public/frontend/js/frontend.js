@@ -32,23 +32,16 @@ $(document).ready(function(){
                 showAlert('info','Vui lòng nhập số điện thoại');
                 return false;
             }else{
-                if(!number.test(phone)){
-                    form.find('#phone').focus();
+                if(phone.charAt(0)!=0){
                     showAlert('info','Số điện thoại không đúng');
+                    form.find('#phone').focus();
                     return false;
                 }
                 else{
-                    if(phone.charAt(0)!=0){
+                    if(phone.length < 10 || phone.length >18){
                         showAlert('info','Số điện thoại không đúng');
                         form.find('#phone').focus();
                         return false;
-                    }
-                    else{
-                        if(phone.length < 10 || phone.length >11){
-                            showAlert('info','Số điện thoại không đúng');
-                            form.find('#phone').focus();
-                            return false;
-                        }
                     }
                 }
             }
@@ -61,11 +54,13 @@ $(document).ready(function(){
                 content: content 
             };
             let callback = function (resp) {
-                if(resp.status=='success'){
+                $('.btn_send_contact').removeAttr('disabled');
+                if (resp.status == 'success') {
                     Swal.close();
+                    showAlert('success','Liên hệ đã được gửi thành công!');
                 }
             }
-            callAjax({ method: "POST", url: 'send-contact', data: data }, callback);
+            callAjax({ method: "POST", url: 'contact/save', data: data }, callback);
         });
     }
 });
