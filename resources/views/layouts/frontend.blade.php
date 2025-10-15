@@ -10,7 +10,7 @@
         <link rel="icon" type="image/png" href="{{asset('frontend')}}/images/favico.png?v=2'?>" />
         <meta property="og:title" content="{{ $title }}"/>
         <meta property="og:description" content="{{ $meta_description }}"/>
-        <meta property="og:image" content="{{ $image??"" }}"/>
+        <meta property="og:image" content="{{ url('/'). ($image??"") }}"/>
         <meta property="og:image:alt" content="{{ $meta_description }}"/>
         <meta property="og:url" content="{{ url()->current() }}"/>
         <meta property="og:type" content="article" />

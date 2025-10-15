@@ -56,7 +56,8 @@ class HomeController extends BaseController
             'relative_articles' => $relativeArticles,
             'category_article' => $categoryArticle,
             'title' => getTitle($detailArticle),
-            'meta_description' => getDesc($detailArticle)
+            'meta_description' => getDesc($detailArticle),
+            'image' => viewImage($detailArticle->image)
         );
         return view('frontend.news_detail', $data);
     }
@@ -69,7 +70,8 @@ class HomeController extends BaseController
         $data  = array(
             'detail_article' => $categoryArticle,
             'title' => getTitle($categoryArticle),
-            'meta_description' => getDesc($categoryArticle)
+            'meta_description' => getDesc($categoryArticle),
+            'image' => viewImage($categoryArticle->image)
         );  
         return view('frontend.page', $data);
     }
