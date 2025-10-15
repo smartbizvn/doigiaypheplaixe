@@ -61,7 +61,6 @@ class AuthController extends BaseController
                 return back()->with('resp_error', 'Thông tin không hợp lệ, vui lòng thử lại');
             }
         } catch(\Exception $ex) {
-            dd($ex);
             parent::processException($ex);
         }
     }

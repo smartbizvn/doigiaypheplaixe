@@ -54,6 +54,7 @@
                                                 </a>
                                             </td>
                                             <td>
+                                                {{ $result->data_json ?? null }} <hr>
                                                 {{ cutText($result->content ?? "") }}
                                             </td>
                                             {{-- Cột chung --}}

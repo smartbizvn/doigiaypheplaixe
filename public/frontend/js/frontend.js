@@ -57,7 +57,7 @@ $(document).ready(function(){
                 $('.btn_send_contact').removeAttr('disabled');
                 if (resp.status == 'success') {
                     Swal.close();
-                    showAlert('success','Liên hệ đã được gửi thành công!');
+                    showAlert('success','Liên hệ đã được gửi thành công !');
                 }
             }
             callAjax({ method: "POST", url: 'contact/save', data: data }, callback);
