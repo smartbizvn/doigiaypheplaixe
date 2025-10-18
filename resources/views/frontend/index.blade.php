@@ -79,7 +79,7 @@
                 <h2 class="title">Bạn đang tìm kiếm tài liệu ôn thi <br>cập nhật theo chương trình mới nhất?</h2>
                 <div class="desc mb-30 md-pr-15">Bộ tài liệu này chính là "trợ thủ đắc lực" giúp bạn tự tin bước vào kỳ thi sát hạch lái xe <br> với đầy đủ kiến thức và kỹ năng cần thiết, từ lý thuyết đến thực hành, <br>hỗ trợ bạn nắm chắc phần thi và vượt qua dễ dàng</div>
                 <div class="btn-part wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
-                    <a class="readon orange-btn" href="{{ getSetting('link_docs') }}">Tải về miễn phí</a>
+                    <a class="readon orange-btn" target="_blank" href="{{ getSetting('link_docs') }}">Tải về miễn phí</a>
                 </div>
             </div> 
         </div>
