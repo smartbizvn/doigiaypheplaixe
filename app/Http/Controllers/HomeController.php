@@ -28,6 +28,7 @@ class HomeController extends BaseController
             'home_categories' => $homeCategories,
             'title' => getSetting('title'),
             'meta_description' => getSetting('meta_description'),
+            'image' => getSetting('link_image')
         );
         return view('frontend.index',$data);
     }

@@ -45,6 +45,13 @@ return [
                 'label' => 'Fanpage',
                 'rules' => 'required',
                 'placeholder' => 'Fanpage'
+            ],
+            [
+                'type' => 'text',
+                'name' => 'link_docs',
+                'label' => 'Link tài liệu',
+                'rules' => '',
+                'placeholder' => 'Link tài liệu'
             ]
         ]
     ],
@@ -75,6 +82,13 @@ return [
                 'label' => 'Meta Description',
                 'rules' => 'required',
                 'placeholder' => 'Meta Description'
+            ],
+            [
+                'type' => 'text',
+                'name' => 'link_image',
+                'label' => 'Link hình ảnh',
+                'rules' => '',
+                'placeholder' => 'Link hình ảnh'
             ]
         ]
     ],
